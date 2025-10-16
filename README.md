@@ -13,8 +13,8 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 - [x] Paradigma declarativo vs imperativo
 - [x] React como _UI derivada de estado_
-- Composição de componentes e a ideia de árvore de renderização
-- O papel da previsibilidade e da pureza de funções
+- [x] Composição de componentes e a ideia de árvore de renderização
+- [x] O papel da previsibilidade e da pureza de funções
 - Abstração entre dados → estado → interface
 - O que diferencia o React de frameworks MVVM/MVC tradicionais
 
