@@ -11,11 +11,12 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Entender o _porquê_ do React existir e o que ele representa no contexto da engenharia de interfaces.
 
 **Tópicos:**
+
 - [x] Paradigma declarativo vs imperativo
 - [x] React como _UI derivada de estado_
 - [x] Composição de componentes e a ideia de árvore de renderização
 - [x] O papel da previsibilidade e da pureza de funções
-- Abstração entre dados → estado → interface
+- [x] Abstração entre dados → estado → interface
 - O que diferencia o React de frameworks MVVM/MVC tradicionais
 
 ---
@@ -25,6 +26,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Entender como o React transforma estado em UI e o que realmente acontece na renderização.
 
 **Tópicos:**
+
 - O que é o Virtual DOM e por que ele existe
 - Reconciliação: como o React compara árvores
 - Diffing algorithm e heurísticas internas
@@ -40,6 +42,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Compreender o funcionamento interno, as restrições e as razões conceituais dos hooks.
 
 **Tópicos:**
+
 - Por que os hooks foram criados (substituição de classes)
 - O ciclo de vida funcional: render → commit → cleanup
 - Regras dos hooks (ordem, pureza e chamadas)
@@ -58,6 +61,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Entender como o React lida com o estado, quais são os tipos e os padrões arquiteturais envolvidos.
 
 **Tópicos:**
+
 - Tipos de estado: local, derivado, global e remoto
 - Fonte de verdade e estado derivado
 - Sincronização de estados entre componentes
@@ -75,6 +79,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Compreender o modelo de renderização e como o React otimiza o processo.
 
 **Tópicos:**
+
 - Ciclo de renderização e commit detalhado
 - Identificação de causas de re-render
 - Reatividade granular e isolamento de componentes
@@ -91,6 +96,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Entender como estruturar componentes e lógica de forma escalável.
 
 **Tópicos:**
+
 - Padrão de composição (props.children, render props, compound components)
 - Inversão de controle e abstração progressiva
 - Componentes controlados vs não controlados
@@ -106,6 +112,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Entender a nova arquitetura e a separação entre client e server components.
 
 **Tópicos:**
+
 - Server Components: o que são e por que surgiram
 - SSR, SSG, CSR e hidratação
 - Transmissão de dados e boundaries entre client/server
@@ -121,6 +128,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Objetivo:** Consolidar mentalidade e princípios de decisão técnica em React.
 
 **Tópicos:**
+
 - Trade-offs: abstração vs clareza
 - Decisões guiadas por intenção, não por ferramenta
 - Evolução de código e consistência em equipe
