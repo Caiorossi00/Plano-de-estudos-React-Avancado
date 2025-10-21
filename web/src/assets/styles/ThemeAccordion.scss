@@ -1,0 +1,18 @@
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+
+#theme-accordion {
+  margin: 0 3%;
+
+  .accordion-box {
+    margin-bottom: 0.5em;
+    display: flex;
+  }
+}
+
+#theme-title {
+  font-size: 2em;
+}

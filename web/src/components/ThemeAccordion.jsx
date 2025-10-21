@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import ModuleAccordion from "./ModuleAccordion";
+import "../assets/styles/ThemeAccordion.scss";
 
 function ThemeAccordion({ title, modules, isOpenDefault = false }) {
   const [isOpen, setIsOpen] = useState(isOpenDefault);
 
   return (
-    <div>
-      <button onClick={() => setIsOpen(!isOpen)}>
-        <span>{title}</span>
-        <span>{isOpen ? "▲" : "▼"}</span>
-      </button>
+    <div id="theme-accordion">
+      <div className="accordion-box">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          <span id="theme-title">{title}</span>
+          <span>{isOpen ? "▲" : "▼"}</span>
+        </button>
+      </div>
 
       {isOpen && (
         <div>
