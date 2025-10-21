@@ -28,7 +28,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] O que é o Virtual DOM e por que ele existe - (20/10/2025)
-- Reconciliação: como o React compara árvores
+- [x] Reconciliação: como o React compara árvores (21/10/2025)
 - Diffing algorithm e heurísticas internas
 - React Fiber: scheduler, prioridade e interrupção de tarefas
 - Tempo de renderização, commit phase e mutation phase
