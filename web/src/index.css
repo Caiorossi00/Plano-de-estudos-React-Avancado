@@ -1,0 +1,26 @@
+:root {
+  --dark-mode-background: #282c35;
+  --dark-mode-font-color: #ffffff;
+
+  --current-bg: var(--dark-mode-background);
+  --current-font: var(--dark-mode-font-color);
+}
+
+body.theme-light {
+  --light-mode-background: #ffffff;
+  --light-mode-font-color: #000000;
+
+  --current-bg: var(--light-mode-background);
+  --current-font: var(--light-mode-font-color);
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--current-bg);
+  color: var(--current-font);
+}
+
+.menu-button {
+  background-color: var(--current-bg);
+  color: var(--current-font);
+}
