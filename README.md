@@ -29,7 +29,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 - [x] O que é o Virtual DOM e por que ele existe - (20/10/2025)
 - [x] Reconciliação: como o React compara árvores (21/10/2025)
-- Diffing algorithm e heurísticas internas
+- [x] Diffing algorithm e heurísticas internas (22/10/2025)
 - React Fiber: scheduler, prioridade e interrupção de tarefas
 - Tempo de renderização, commit phase e mutation phase
 - Como o React garante fluidez sob carga (Concurrent Mode)
