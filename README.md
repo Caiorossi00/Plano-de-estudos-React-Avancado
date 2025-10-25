@@ -33,7 +33,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] React Fiber: scheduler, prioridade e interrupção de tarefas (23/10/2025)
 - [x] Tempo de renderização, commit phase e mutation phase (24/10/2025)
 - [x] Como o React garante fluidez sob carga (Concurrent Mode) (25/10/2025)
-- Batching de atualizações e event loop
+- [x] Batching de atualizações e event loop (25/10/2025)
 
 ---
 
