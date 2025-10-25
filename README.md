@@ -31,7 +31,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Reconciliação: como o React compara árvores (21/10/2025)
 - [x] Diffing algorithm e heurísticas internas (22/10/2025)
 - [x] React Fiber: scheduler, prioridade e interrupção de tarefas (23/10/2025)
-- Tempo de renderização, commit phase e mutation phase
+- [x] Tempo de renderização, commit phase e mutation phase (24/10/2025)
 - Como o React garante fluidez sob carga (Concurrent Mode)
 - Batching de atualizações e event loop
 
