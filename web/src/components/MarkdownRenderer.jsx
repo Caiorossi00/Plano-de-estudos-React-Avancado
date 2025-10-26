@@ -2,14 +2,10 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 function MarkdownRenderer({ markdown }) {
+  if (!markdown) return null;
+
   return (
-    <div
-      style={{
-        border: "1px solid gray",
-        padding: "15px",
-        margin: "10px 0",
-      }}
-    >
+    <div className="markdown-body">
       <ReactMarkdown>{markdown}</ReactMarkdown>
     </div>
   );

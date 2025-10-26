@@ -1,0 +1,85 @@
+.content-page {
+  font-family: var(--font-main);
+  color: var(--current-font);
+  margin: 2em 5%;
+
+  .content-header {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    h1 {
+      text-align: left;
+      text-align: center;
+      font-style: italic;
+      color: var(--current-font);
+    }
+  }
+
+  .content-body {
+    background-color: var(--current-content-bg);
+    padding: 2rem;
+    border-radius: 12px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--current-font);
+    }
+
+    p {
+      margin-bottom: 1rem;
+      line-height: 1.8;
+      color: var(--current-font);
+    }
+
+    ul,
+    ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    blockquote {
+      border-left: 4px solid rgba(0, 0, 0, 0.2);
+      padding-left: 1rem;
+      color: var(--current-font);
+      font-style: italic;
+      margin: 1rem 0;
+      background-color: rgba(214, 214, 214, 0.05);
+      border-radius: 4px;
+      padding: 0.1em 1rem;
+    }
+
+    pre {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: var(--current-font);
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin-bottom: 1.5rem;
+
+      code {
+        font-size: 0.9rem;
+        color: var(--current-font);
+      }
+    }
+
+    code {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      font-size: 0.9rem;
+      line-height: 2.5;
+      color: var(--current-font);
+      padding: 0.1rem 0.3rem;
+    }
+
+    a {
+      color: var(--current-font);
+      text-decoration: underline;
+    }
+  }
+}

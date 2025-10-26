@@ -1,26 +1,46 @@
 :root {
+  --font-main: "Questrial", sans-serif;
+
   --dark-mode-background: #282c35;
   --dark-mode-font-color: #ffffff;
+  --dark-mode-content-bg: #343943;
+
+  --light-mode-background: #e4e4e4;
+  --light-mode-font-color: #000000;
+  --light-mode-content-bg: #ebebeb;
 
   --current-bg: var(--dark-mode-background);
   --current-font: var(--dark-mode-font-color);
+  --current-content-bg: var(--dark-mode-content-bg);
 }
 
 body.theme-light {
-  --light-mode-background: #ffffff;
-  --light-mode-font-color: #000000;
-
   --current-bg: var(--light-mode-background);
   --current-font: var(--light-mode-font-color);
+  --current-content-bg: var(--light-mode-content-bg);
 }
 
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
   background-color: var(--current-bg);
   color: var(--current-font);
+  font-family: var(--font-main);
 }
 
 .menu-button {
   background-color: var(--current-bg);
   color: var(--current-font);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

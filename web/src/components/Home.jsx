@@ -1,20 +1,18 @@
 import React from "react";
+import ContentAccordion from "./03-ContentAccordion";
 import topicos from "../data/menuData";
-import ThemeAccordion from "./ThemeAccordion";
 
 function Home() {
   return (
-    <div>
-      <nav>
-        {topicos.map((themeData) => (
-          <ThemeAccordion
-            key={themeData.tema}
-            title={themeData.tema}
-            modules={themeData.modulos}
-            isOpenDefault={themeData.isOpenDefault}
-          />
-        ))}
-      </nav>
+    <div className="home">
+      {topicos.map((topico, idx) => (
+        <div key={idx}>
+          <h2>{topico.tema}</h2>
+          {topico.modulos.map((modulo, mIdx) => (
+            <ContentAccordion key={mIdx} modulo={modulo} />
+          ))}
+        </div>
+      ))}
     </div>
   );
 }
