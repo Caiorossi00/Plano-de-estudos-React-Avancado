@@ -1,7 +1,5 @@
 # Paradigma Imperativo vs Declarativo
 
-## Paradigma Imperativo
-
 No paradigma **imperativo**, escrevemos **passo a passo o que deve acontecer** — de forma **algorítmica**.
 
 ### Exemplo do mundo real
