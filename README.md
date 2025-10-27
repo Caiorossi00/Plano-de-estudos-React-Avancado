@@ -43,7 +43,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- Por que os hooks foram criados (substituição de classes)
+- [x] Por que os hooks foram criados (substituição de classes) (27/10/2025)
 - O ciclo de vida funcional: render → commit → cleanup
 - Regras dos hooks (ordem, pureza e chamadas)
 - `useState`: closures e estado persistente entre renderizações
