@@ -23,11 +23,18 @@ function ContentAccordion({ modulo }) {
       {isOpen && (
         <div>
           {modulo.objetivo && (
-            <p>
+            <p
+              style={{
+                fontStyle: "italic",
+                marginTop: "0.5rem",
+                marginLeft: "0.5em",
+                width: "60%",
+              }}
+            >
               <strong>Objetivo:</strong> {modulo.objetivo}
             </p>
           )}
-          <ul>
+          <ul style={{ marginBottom: "2rem" }}>
             {modulo.aulas.map((aula, idx) => (
               <li key={idx}>
                 <Link to={`/conteudo/${slugify(aula.titulo)}`}>

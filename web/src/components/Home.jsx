@@ -7,10 +7,12 @@ function Home() {
   return (
     <div className="home">
       {topicos.map((topico, idx) => (
-        <div key={idx}>
+        <div key={idx} id="topico">
           <h2>{topico.tema}</h2>
           {topico.modulos.map((modulo, mIdx) => (
-            <ContentAccordion key={mIdx} modulo={modulo} />
+            <div key={mIdx} className="modulo">
+              <ContentAccordion modulo={modulo} />
+            </div>
           ))}
         </div>
       ))}

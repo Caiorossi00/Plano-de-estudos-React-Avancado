@@ -13,11 +13,6 @@ function ModuleAccordion({ title, objetivo, aulas, isOpenDefault = false }) {
 
       {isOpen && (
         <div>
-          {objetivo && (
-            <p>
-              <strong>Objetivo:</strong> {objetivo}
-            </p>
-          )}
           <ul>
             {aulas.map((aula, index) => (
               <li key={index}>

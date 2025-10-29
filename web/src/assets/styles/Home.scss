@@ -1,9 +1,17 @@
 .home {
   margin: 0 3%;
 
-  h2 {
-    font-size: 2em;
-    margin-bottom: 0.5rem;
+  #topico {
+    margin-bottom: 3rem;
+  }
+
+  .modulo {
+    margin-bottom: 0.3em;
+  }
+
+  #topico h2 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
   }
 
   button {
