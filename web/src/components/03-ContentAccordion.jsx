@@ -15,15 +15,15 @@ function ContentAccordion({ modulo }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="content-accordion">
+    <div>
       <button onClick={() => setIsOpen(!isOpen)}>
         {modulo.modulo} <span>{isOpen ? "▲" : "▼"}</span>
       </button>
 
       {isOpen && (
-        <div className="module-content">
+        <div>
           {modulo.objetivo && (
-            <p className="module-objective">
+            <p>
               <strong>Objetivo:</strong> {modulo.objetivo}
             </p>
           )}

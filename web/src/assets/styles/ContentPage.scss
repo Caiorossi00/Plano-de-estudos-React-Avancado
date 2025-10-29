@@ -1,7 +1,7 @@
 .content-page {
   font-family: var(--font-main);
   color: var(--current-font);
-  margin: 2em 5%;
+  width: 100%;
 
   .content-header {
     margin-bottom: 2rem;
@@ -82,4 +82,11 @@
       text-decoration: underline;
     }
   }
+}
+
+#content-page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin: 2em 3%;
+  gap: 1em;
 }

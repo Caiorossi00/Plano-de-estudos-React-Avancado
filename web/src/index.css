@@ -5,9 +5,9 @@
   --dark-mode-font-color: #ffffff;
   --dark-mode-content-bg: #343943;
 
-  --light-mode-background: #e4e4e4;
-  --light-mode-font-color: #000000;
-  --light-mode-content-bg: #ebebeb;
+  --light-mode-background: #fafafa;
+  --light-mode-font-color: #1a1a1a;
+  --light-mode-content-bg: #ffffff;
 
   --current-bg: var(--dark-mode-background);
   --current-font: var(--dark-mode-font-color);
@@ -25,11 +25,8 @@ body {
   background-color: var(--current-bg);
   color: var(--current-font);
   font-family: var(--font-main);
-}
-
-.menu-button {
-  background-color: var(--current-bg);
-  color: var(--current-font);
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -38,6 +35,7 @@ button {
   color: inherit;
   font-family: inherit;
   cursor: pointer;
+  margin-left: -2px;
 }
 
 a {

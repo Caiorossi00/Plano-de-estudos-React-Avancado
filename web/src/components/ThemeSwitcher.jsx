@@ -5,18 +5,25 @@ function ThemeSwitcher() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <button
-      onClick={toggleTheme}
+    <div
       style={{
-        padding: "8px",
-        border: "1px solid currentColor",
-        borderRadius: "4px",
-        cursor: "pointer",
-        margin: "10px",
+        display: "flex",
+        justifyContent: "flex-end",
+        padding: "10px",
       }}
     >
-      {theme === "light" ? "Dark Mode" : "Light Mode"}
-    </button>
+      <button
+        onClick={toggleTheme}
+        style={{
+          padding: "8px",
+          border: "1px solid currentColor",
+          borderRadius: "4px",
+          cursor: "pointer",
+        }}
+      >
+        {theme === "light" ? "Dark Mode" : "Light Mode"}
+      </button>
+    </div>
   );
 }
 

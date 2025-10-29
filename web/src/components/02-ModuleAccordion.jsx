@@ -1,21 +1,20 @@
 import React, { useState } from "react";
 import ContentAccordion from "./ContentAccordion";
-import "../assets/styles/ModuleAccordion.scss";
 
 function ModuleAccordion({ title, objetivo, aulas, isOpenDefault = false }) {
   const [isOpen, setIsOpen] = useState(isOpenDefault);
 
   return (
-    <div className="module-accordion">
-      <button className="module-toggle" onClick={() => setIsOpen(!isOpen)}>
+    <div>
+      <button onClick={() => setIsOpen(!isOpen)}>
         <span>{title}</span>
         <span>{isOpen ? "▲" : "▼"}</span>
       </button>
 
       {isOpen && (
-        <div className="module-content">
+        <div>
           {objetivo && (
-            <p className="module-objective">
+            <p>
               <strong>Objetivo:</strong> {objetivo}
             </p>
           )}

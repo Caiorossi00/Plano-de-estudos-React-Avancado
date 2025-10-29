@@ -43,10 +43,7 @@ function App() {
     <BrowserRouter>
       <ThemeProvider>
         <div>
-          <div style={{ textAlign: "right", marginBottom: "20px" }}>
-            <ThemeSwitcher />
-          </div>
-
+          <ThemeSwitcher />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/conteudo/:slug" element={<ContentPageWrapper />} />

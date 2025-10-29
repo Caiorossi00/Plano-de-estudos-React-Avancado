@@ -1,6 +1,7 @@
 import React from "react";
 import ContentAccordion from "./03-ContentAccordion";
 import topicos from "../data/menuData";
+import "../assets/styles/Home.scss";
 
 function Home() {
   return (
