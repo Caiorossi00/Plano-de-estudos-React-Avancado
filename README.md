@@ -46,7 +46,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Por que os hooks foram criados (substituição de classes) (27/10/2025)
 - [x] O ciclo de vida funcional: render → commit → cleanup (28/10/2025)
 - [x] Regras dos hooks (ordem, pureza e chamadas) (30/10/2025)
-- `useState`: closures e estado persistente entre renderizações
+- [x] `useState`: closures e estado persistente entre renderizações (30/10/2025)
 - `useEffect`: sincronização com o mundo externo
 - `useRef`: identidade e persistência fora do ciclo de render
 - `useMemo` e `useCallback`: memoização e reatividade controlada
