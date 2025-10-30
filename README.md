@@ -28,12 +28,12 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] O que é o Virtual DOM e por que ele existe - (20/10/2025)
-- [x] Reconciliação: como o React compara árvores (21/10/2025)
-- [x] Diffing algorithm e heurísticas internas (22/10/2025)
-- [x] React Fiber: scheduler, prioridade e interrupção de tarefas (23/10/2025)
-- [x] Tempo de renderização, commit phase e mutation phase (24/10/2025)
-- [x] Como o React garante fluidez sob carga (Concurrent Mode) (25/10/2025)
-- [x] Batching de atualizações e event loop (25/10/2025)
+- [x] Reconciliação: como o React compara árvores - (21/10/2025)
+- [x] Diffing algorithm e heurísticas internas - (22/10/2025)
+- [x] React Fiber: scheduler, prioridade e interrupção de tarefas - (23/10/2025)
+- [x] Tempo de renderização, commit phase e mutation phase - (24/10/2025)
+- [x] Como o React garante fluidez sob carga (Concurrent Mode) - (25/10/2025)
+- [x] Batching de atualizações e event loop - (25/10/2025)
 
 ---
 
@@ -43,10 +43,10 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- [x] Por que os hooks foram criados (substituição de classes) (27/10/2025)
-- [x] O ciclo de vida funcional: render → commit → cleanup (28/10/2025)
-- [x] Regras dos hooks (ordem, pureza e chamadas) (30/10/2025)
-- [x] `useState`: closures e estado persistente entre renderizações (30/10/2025)
+- [x] Por que os hooks foram criados (substituição de classes) - (27/10/2025)
+- [x] O ciclo de vida funcional: render → commit → cleanup - (28/10/2025)
+- [x] Regras dos hooks (ordem, pureza e chamadas) - (30/10/2025)
+- [x] `useState`: closures e estado persistente entre renderizações - (30/10/2025)
 - `useEffect`: sincronização com o mundo externo
 - `useRef`: identidade e persistência fora do ciclo de render
 - `useMemo` e `useCallback`: memoização e reatividade controlada
