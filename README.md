@@ -47,7 +47,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] O ciclo de vida funcional: render → commit → cleanup - (28/10/2025)
 - [x] Regras dos hooks (ordem, pureza e chamadas) - (30/10/2025)
 - [x] `useState`: closures e estado persistente entre renderizações - (30/10/2025)
-- `useEffect`: sincronização com o mundo externo
+- [x] `useEffect`: sincronização com o mundo externo - (31/10/2025)
 - `useRef`: identidade e persistência fora do ciclo de render
 - `useMemo` e `useCallback`: memoização e reatividade controlada
 - `useReducer` e o padrão de isolamento de lógica
