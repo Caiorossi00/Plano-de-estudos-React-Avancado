@@ -90,4 +90,8 @@
   align-items: flex-start;
   margin: 2em 3%;
   gap: 1em;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }

@@ -4,4 +4,12 @@
   min-height: 40vh;
   border-radius: 12px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    min-height: 4em;
+    align-items: center;
+    justify-content: center;
+  }
 }
