@@ -49,7 +49,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] `useState`: closures e estado persistente entre renderizações - (30/10/2025)
 - [x] `useEffect`: sincronização com o mundo externo - (31/10/2025)
 - [x] `useRef`: identidade e persistência fora do ciclo de render - (01/11/2025)
-- `useMemo` e `useCallback`: memoização e reatividade controlada
+- [x] `useMemo` e `useCallback`: memoização e reatividade controlada - (01/11/2025)
 - `useReducer` e o padrão de isolamento de lógica
 - Hooks customizados: composição e reutilização de comportamento
 - O problema do stale state e as closures em React
