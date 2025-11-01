@@ -48,7 +48,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Regras dos hooks (ordem, pureza e chamadas) - (30/10/2025)
 - [x] `useState`: closures e estado persistente entre renderizações - (30/10/2025)
 - [x] `useEffect`: sincronização com o mundo externo - (31/10/2025)
-- `useRef`: identidade e persistência fora do ciclo de render
+- [x] `useRef`: identidade e persistência fora do ciclo de render - (01/11/2025)
 - `useMemo` e `useCallback`: memoização e reatividade controlada
 - `useReducer` e o padrão de isolamento de lógica
 - Hooks customizados: composição e reutilização de comportamento
