@@ -51,7 +51,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] `useRef`: identidade e persistência fora do ciclo de render - (01/11/2025)
 - [x] `useMemo` e `useCallback`: memoização e reatividade controlada - (01/11/2025)
 - [x] `useReducer` e o padrão de isolamento de lógica - (03/11/2025)
-- Hooks customizados: composição e reutilização de comportamento
+- [x] Hooks customizados: composição e reutilização de comportamento - (04/11/2025)
 - O problema do stale state e as closures em React
 
 ---
