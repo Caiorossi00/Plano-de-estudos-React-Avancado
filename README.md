@@ -52,7 +52,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] `useMemo` e `useCallback`: memoização e reatividade controlada - (01/11/2025)
 - [x] `useReducer` e o padrão de isolamento de lógica - (03/11/2025)
 - [x] Hooks customizados: composição e reutilização de comportamento - (04/11/2025)
-- O problema do stale state e as closures em React
+- [x] O problema do stale state e as closures em React - (05/11/2025)
 
 ---
 
