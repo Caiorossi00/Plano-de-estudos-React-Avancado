@@ -62,7 +62,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- Tipos de estado: local, derivado, global e remoto
+- [x] Tipos de estado: local, derivado, global e remoto - (06/11/2025)
 - Fonte de verdade e estado derivado
 - Sincronização de estados entre componentes
 - Context API: conceito, escopo e custo de renderização
