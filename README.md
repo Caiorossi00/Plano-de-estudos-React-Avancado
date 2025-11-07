@@ -63,7 +63,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] Tipos de estado: local, derivado, global e remoto - (06/11/2025)
-- Fonte de verdade e estado derivado
+- [x] Fonte de verdade e estado derivado (07/11/2025)
 - Sincronização de estados entre componentes
 - Context API: conceito, escopo e custo de renderização
 - Patterns de gerenciamento (lifting state up, prop drilling, context splitting)
