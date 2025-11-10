@@ -67,7 +67,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Sincronização de estados entre componentes - (08/11/2025)
 - [x] Context API: conceito, escopo e custo de renderização - (08/11/2025)
 - [x] Patterns de gerenciamento (lifting state up, prop drilling, context splitting) - (08/11/2025)
-- Gerenciamento externo: Redux Toolkit, Zustand, React Query (conceito, não uso)
+- [x] Gerenciamento externo: Redux Toolkit, Zustand, React Query (conceito, não uso) - (10/11/2025)
 - Cache, sincronização e invalidação de dados
 - “Server state” vs “UI state”
 - Estratégias para evitar re-renderizações desnecessárias
