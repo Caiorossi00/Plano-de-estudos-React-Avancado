@@ -69,7 +69,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Patterns de gerenciamento (lifting state up, prop drilling, context splitting) - (08/11/2025)
 - [x] Gerenciamento externo: Redux Toolkit, Zustand, React Query (conceito, não uso) - (10/11/2025)
 - [x] Cache, sincronização e invalidação de dados - (11/11/2025)
-- “Server state” vs “UI state”
+- [x] “Server state” vs “UI state” - (12/11/2025)
 - Estratégias para evitar re-renderizações desnecessárias
 
 ---
