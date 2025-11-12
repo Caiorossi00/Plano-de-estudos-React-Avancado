@@ -70,7 +70,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Gerenciamento externo: Redux Toolkit, Zustand, React Query (conceito, não uso) - (10/11/2025)
 - [x] Cache, sincronização e invalidação de dados - (11/11/2025)
 - [x] “Server state” vs “UI state” - (12/11/2025)
-- Estratégias para evitar re-renderizações desnecessárias
+- [x] Estratégias para evitar re-renderizações desnecessárias - (12/11/2025)
 
 ---
 
