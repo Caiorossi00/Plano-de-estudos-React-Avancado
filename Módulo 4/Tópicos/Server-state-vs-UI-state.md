@@ -1,3 +1,5 @@
+# Server state vs UI state
+
 O **UI state** (estado de interface) representa tudo que existe apenas no cliente e não depende de um backend, como o estado de um modal aberto ou a aba selecionada em uma interface.  
 Ele é totalmente controlado pelo React e armazenado via `useState` ou `useReducer`, e só interessa à experiência do usuário.
 

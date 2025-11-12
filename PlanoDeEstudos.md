@@ -4,7 +4,6 @@
 
 ### **MÓDULO 1 – Filosofia e Paradigma do React**
 
-**Tempo sugerido:** 1 semana  
 **Objetivo:** Entender o _porquê_ do React existir e o que ele representa no contexto da engenharia de interfaces.
 
 **Tópicos:**
@@ -17,6 +16,7 @@
 - O que diferencia o React de frameworks MVVM/MVC tradicionais
 
 **Fontes de estudo:**
+f
 
 - _React Docs – Thinking in React_
 - _React as a UI Runtime_ – Dan Abramov
@@ -26,7 +26,6 @@
 
 ### **MÓDULO 2 – O motor do React (Virtual DOM e Fiber)**
 
-**Tempo sugerido:** 1,5 semana  
 **Objetivo:** Entender como o React transforma estado em UI e o que realmente acontece na renderização.
 
 **Tópicos:**
@@ -50,7 +49,6 @@
 
 ### **MÓDULO 3 – Hooks em nível conceitual**
 
-**Tempo sugerido:** 2 semanas  
 **Objetivo:** Compreender o funcionamento interno, as restrições e as razões conceituais dos hooks.
 
 **Tópicos:**
@@ -77,7 +75,6 @@
 
 ### **MÓDULO 4 – Estado, dados e arquitetura**
 
-**Tempo sugerido:** 2 semanas  
 **Objetivo:** Entender como o React lida com o estado, quais são os tipos e os padrões arquiteturais envolvidos.
 
 **Tópicos:**
@@ -103,7 +100,6 @@
 
 ### **MÓDULO 5 – Renderização e performance**
 
-**Tempo sugerido:** 1,5 semana  
 **Objetivo:** Compreender o modelo de renderização e como o React otimiza o processo.
 
 **Tópicos:**
@@ -128,7 +124,6 @@
 
 ### **MÓDULO 6 – Composição e padrões de arquitetura**
 
-**Tempo sugerido:** 1,5 semana  
 **Objetivo:** Entender como estruturar componentes e lógica de forma escalável.
 
 **Tópicos:**
@@ -151,7 +146,6 @@
 
 ### **MÓDULO 7 – React moderno e Server Components**
 
-**Tempo sugerido:** 1,5 semana  
 **Objetivo:** Entender a nova arquitetura e a separação entre client e server components.
 
 **Tópicos:**
@@ -175,7 +169,6 @@
 
 ### **MÓDULO 8 – Filosofia de Engenharia Frontend**
 
-**Tempo sugerido:** 1 semana  
 **Objetivo:** Consolidar mentalidade e princípios de decisão técnica em React.
 
 **Tópicos:**
