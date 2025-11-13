@@ -80,7 +80,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- Ciclo de renderização e commit detalhado
+- [x] Ciclo de renderização e commit detalhado - (13/11/2025)
 - Identificação de causas de re-render
 - Reatividade granular e isolamento de componentes
 - Mecanismo de memoização (`memo`, `useMemo`, `useCallback`)
