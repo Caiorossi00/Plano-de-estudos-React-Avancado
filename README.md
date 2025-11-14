@@ -81,7 +81,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] Ciclo de renderização e commit detalhado - (13/11/2025)
-- Identificação de causas de re-render
+- [x] Identificação de causas de re-render - (14/11/2025)
 - Reatividade granular e isolamento de componentes
 - Mecanismo de memoização (`memo`, `useMemo`, `useCallback`)
 - Suspense e streaming de dados (React 18+)
