@@ -65,23 +65,7 @@
 
 ---
 
-### **5. Suspense e streaming de dados (React 18+)**
-
-**Conceitos a aprofundar:**
-
-- Suspense: permite **esperar por dados ou componentes** sem bloquear a renderização completa.
-- Streaming: envia pedaços da UI conforme dados ficam disponíveis.
-- Integração com fetch de dados assíncronos e Server Components.
-
-**Perguntas-guia:**
-
-- Como Suspense melhora experiência do usuário?
-- Diferença entre Suspense para código e para dados.
-- Qual o impacto no ciclo de render e commit?
-
----
-
-### **6. Lazy loading e divisão de código**
+### **5. Lazy loading e divisão de código**
 
 **Conceitos a aprofundar:**
 
@@ -97,7 +81,7 @@
 
 ---
 
-### **7. Concurrent rendering: scheduling, interrupção e prioridade**
+### **6. Concurrent rendering: scheduling, interrupção e prioridade**
 
 **Conceitos a aprofundar:**
 
@@ -113,7 +97,7 @@
 
 ---
 
-### **8. Interação com Web Vitals e tempo de pintura**
+### **7. Interação com Web Vitals e tempo de pintura**
 
 **Conceitos a aprofundar:**
 
