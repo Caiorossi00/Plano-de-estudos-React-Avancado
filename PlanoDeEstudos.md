@@ -107,7 +107,6 @@ f
 - Ciclo de renderização e commit detalhado
 - Identificação de causas de re-render
 - Reatividade granular e isolamento de componentes
-- Mecanismo de memoização (`memo`, `useMemo`, `useCallback`)
 - Suspense e streaming de dados (React 18+)
 - Lazy loading e divisão de código
 - Concurrent rendering: scheduling, interrupção e prioridade
