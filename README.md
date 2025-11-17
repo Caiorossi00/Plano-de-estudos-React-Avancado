@@ -82,8 +82,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 - [x] Ciclo de renderização e commit detalhado - (13/11/2025)
 - [x] Identificação de causas de re-render - (14/11/2025)
-- Reatividade granular e isolamento de componentes
-- Mecanismo de memoização (`memo`, `useMemo`, `useCallback`)
+- [x] Reatividade granular e isolamento de componentes - (14/11/2025)
 - Suspense e streaming de dados (React 18+)
 - Lazy loading e divisão de código
 - Concurrent rendering: scheduling, interrupção e prioridade
