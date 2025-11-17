@@ -84,7 +84,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Identificação de causas de re-render - (14/11/2025)
 - [x] Reatividade granular e isolamento de componentes - (17/11/2025)
 - [x] Suspense e streaming de dados (React 18+) - (17/11/2025)
-- Lazy loading e divisão de código
+- [x] Lazy loading e divisão de código - (17/11/2025)
 - Concurrent rendering: scheduling, interrupção e prioridade
 - Interação com Web Vitals e tempo de pintura
 
