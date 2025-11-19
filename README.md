@@ -86,7 +86,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Suspense e streaming de dados (React 18+) - (17/11/2025)
 - [x] Lazy loading e divisão de código - (17/11/2025)
 - [x] Concurrent rendering: scheduling, interrupção e prioridade - (18/11/2025)
-- Interação com Web Vitals e tempo de pintura
+- [x] Interação com Web Vitals e tempo de pintura - (19/11/2025)
 
 ---
 
