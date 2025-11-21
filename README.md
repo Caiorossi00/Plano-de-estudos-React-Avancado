@@ -96,7 +96,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- Padrão de composição (props.children, render props, compound components)
+- [x] Padrão de composição (props.children, render props, compound components) - (21/11/2025)
 - Inversão de controle e abstração progressiva
 - Componentes controlados vs não controlados
 - Patterns de isolamento: container/presentational, smart/dumb
