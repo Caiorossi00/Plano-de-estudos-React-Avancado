@@ -100,7 +100,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Inversão de controle e abstração progressiva - (24/11/2025)
 - [x] Componentes controlados vs não controlados - (24/11/2025)
 - [x] Patterns de isolamento: container/presentational, smart/dumb - (25/11/2025)
-- Prop drilling e patterns alternativos
+- [x] Prop drilling e patterns alternativos - (25/11/2025)
 - Patterns de extensibilidade (slot pattern, HOCs conceitualmente)
 - Princípios de design componível
 
