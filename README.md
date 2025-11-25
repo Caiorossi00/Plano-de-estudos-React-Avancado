@@ -99,7 +99,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Padrão de composição (props.children, render props, compound components) - (21/11/2025)
 - [x] Inversão de controle e abstração progressiva - (24/11/2025)
 - [x] Componentes controlados vs não controlados - (24/11/2025)
-- Patterns de isolamento: container/presentational, smart/dumb
+- [x] Patterns de isolamento: container/presentational, smart/dumb - (25/11/2025)
 - Prop drilling e patterns alternativos
 - Patterns de extensibilidade (slot pattern, HOCs conceitualmente)
 - Princípios de design componível
