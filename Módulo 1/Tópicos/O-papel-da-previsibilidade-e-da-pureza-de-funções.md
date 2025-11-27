@@ -1,4 +1,4 @@
-# Funções Puras e useEffect no React
+# O papel da previsibilidade e da pureza de funções
 
 ## Função pura
 

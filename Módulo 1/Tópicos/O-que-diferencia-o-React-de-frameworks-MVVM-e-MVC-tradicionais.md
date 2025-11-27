@@ -1,4 +1,6 @@
-### **MVC – Separação manual e explícita**
+# O que diferencia o React de frameworks MVVM/MVC tradicionais
+
+## **MVC – Separação manual e explícita**
 
 No modelo **MVC (Model–View–Controller)**, cada parte do sistema tem uma responsabilidade clara:
 
@@ -13,7 +15,7 @@ Esse padrão é mais verboso, mas dá clareza sobre “quem faz o quê”.
 
 ---
 
-### **MVVM – Atualização automática (two-way data binding)**
+## **MVVM – Atualização automática (two-way data binding)**
 
 No **MVVM (Model–View–ViewModel)**, a ideia é que a **View** e o **Model** fiquem sincronizados automaticamente.  
 A camada do **ViewModel** funciona como um “espelho inteligente” dos dados: se o usuário altera algo na interface (como digitar uma letra no campo de busca), o modelo é atualizado automaticamente, e vice-versa.
@@ -25,7 +27,7 @@ Esse comportamento é comum em frameworks como Angular e Vue, com o chamado **tw
 
 ---
 
-### **React – UI como função do estado (one-way data flow)**
+## **React – UI como função do estado (one-way data flow)**
 
 O React adota um modelo diferente: a UI é apenas uma **função pura do estado**.  
 Não existe uma ligação automática entre input e dados.  

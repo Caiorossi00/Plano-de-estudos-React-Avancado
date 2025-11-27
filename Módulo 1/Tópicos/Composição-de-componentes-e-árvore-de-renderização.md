@@ -1,4 +1,4 @@
-# Componentes em React
+# Composição de componentes e a ideia de árvore de renderização
 
 No React, a **UI é construída a partir de componentes**, que são blocos reutilizáveis.
 

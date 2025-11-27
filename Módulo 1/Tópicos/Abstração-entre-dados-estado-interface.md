@@ -1,4 +1,4 @@
-# Abstração no React
+# Abstração entre dados -> estado -> interface
 
 Abstração significa **esconder a complexidade de um processo**, oferecendo uma interface mais simples para interagir com ele.
 

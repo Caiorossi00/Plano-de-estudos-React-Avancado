@@ -1,6 +1,4 @@
-# Módulo 1 – Filosofia e Paradigma do React
-
-## UI derivada de estado
+# React como UI derivada de estado
 
 O conceito central é que, no React, a UI **não é algo que você manipula diretamente**, ela é uma função do estado:
 
