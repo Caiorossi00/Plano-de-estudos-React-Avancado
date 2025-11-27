@@ -102,7 +102,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Patterns de isolamento: container/presentational, smart/dumb - (25/11/2025)
 - [x] Prop drilling e patterns alternativos - (25/11/2025)
 - [x] Patterns de extensibilidade (slot pattern, HOCs conceitualmente) - (26/11/2025)
-- Princípios de design componível
+- [x] Princípios de design componível - (27/11/2025)
 
 ---
 
