@@ -1,4 +1,4 @@
-# useState: Closures e estado persistente
+# useState: closures e estado persistente
 
 ## Estado persistente via "array interno"
 

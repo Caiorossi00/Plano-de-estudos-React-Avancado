@@ -1,4 +1,4 @@
-# useRef - identidade e persistência fora do ciclo
+# useRef: identidade e persistência fora do ciclo de render
 
 `useRef` é um hook do React utilizado para armazenar um valor persistente entre renderizações sem causar uma nova renderização quando esse valor muda. Ele retorna um objeto imutável no formato `{ current: valor }`.
 

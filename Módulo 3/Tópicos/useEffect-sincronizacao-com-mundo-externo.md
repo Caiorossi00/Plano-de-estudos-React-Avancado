@@ -1,4 +1,4 @@
-# useEffect - Sincronização com o mundo externo
+# useEffect: sincronização com o mundo externo
 
 ## useEffect e efeitos colaterais
 

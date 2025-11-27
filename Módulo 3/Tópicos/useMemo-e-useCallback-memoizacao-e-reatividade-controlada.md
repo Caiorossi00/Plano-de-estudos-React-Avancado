@@ -1,4 +1,4 @@
-# useMemo e useCallback - memoização e reatividade controlada
+# useMemo e useCallback: memoização e reatividade controlada
 
 Memoizar, no contexto de programação e react significa armazenar o resultado de um cálculo ou função para reutilizá-lo futuramente sem precisar recalculá-lo
 

@@ -1,3 +1,5 @@
+# Por que os hooks foram criados (substituição de classes)
+
 Antes dos **Hooks**, o React usava **classes** para criar componentes com estado e comportamento próprio.  
 Uma **classe** é uma forma de definir um "molde" para um componente, dizendo como ele deve se comportar, quais dados guarda e o que exibe.  
 Dentro da classe, usamos métodos especiais (como `constructor`, `render`, `componentDidMount`) para controlar cada momento da vida do componente.
