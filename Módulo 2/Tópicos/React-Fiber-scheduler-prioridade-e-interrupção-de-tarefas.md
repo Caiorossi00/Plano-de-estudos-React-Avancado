@@ -1,4 +1,4 @@
-# Fiber – O Novo Mecanismo de Reconciliação do React
+# React Fiber: scheduler, prioridade e interrupção de tarefas
 
 O Fiber é uma reescrita interna do mecanismo de reconciliação, no modelo original (antes do React 16), todo o processo de reconciliação e atualização era **sincrônico e bloqueante**, ou seja, quando o estado mudava, o React reconstruía toda a árvore virtual, fazia o diff e aplicava as mudanças ao DOM sem parar.  
 Isso podia fazer com que o navegador travasse por alguns milissegundos.  

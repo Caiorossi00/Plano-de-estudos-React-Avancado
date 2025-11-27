@@ -1,4 +1,4 @@
-# Virtual DOM – O Espelho entre Estado e Interface
+# O que é o virtual DOM e por que ele existe
 
 O **DOM (Document Object Model)** é a representação em árvore de todos os elementos HTML de uma página.  
 Quando você altera algo no DOM — por exemplo, muda o texto de uma `<div>`, o navegador precisa recalcular posições, tamanhos, estilos e repintar a tela.
