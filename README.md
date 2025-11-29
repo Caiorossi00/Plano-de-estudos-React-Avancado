@@ -113,7 +113,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] Server Components: o que são e por que surgiram - (28/11/2025)
-- SSR, SSG, CSR e hidratação
+- [x] SSR, SSG, CSR e hidratação - (29/11/2025)
 - Transmissão de dados e boundaries entre client/server
 - Suspense for Data Fetching e streaming
 - Impacto em performance e arquitetura de dados
