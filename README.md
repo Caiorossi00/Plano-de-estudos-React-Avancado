@@ -117,7 +117,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Transmissão de dados e boundaries entre client/server - (01/12/2025)
 - [x] Suspense for Data Fetching e streaming - (02/12/2025)
 - [x] Limitações e padrões emergentes (Next.js 14/15, React 19) - (03/12/2025)
-- O futuro da renderização no React
+- [x] O futuro da renderização no React - (03/12/2025)
 
 ---
 
