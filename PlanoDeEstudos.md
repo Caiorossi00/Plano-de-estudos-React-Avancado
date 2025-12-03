@@ -153,7 +153,6 @@ f
 - SSR, SSG, CSR e hidratação
 - Transmissão de dados e boundaries entre client/server
 - Suspense for Data Fetching e streaming
-- Impacto em performance e arquitetura de dados
 - Limitações e padrões emergentes (Next.js 14/15, React 19)
 - O futuro da renderização no React
 

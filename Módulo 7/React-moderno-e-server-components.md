@@ -66,23 +66,7 @@
 
 ---
 
-### **5. Impacto em performance e arquitetura de dados**
-
-**Conceitos a aprofundar:**
-
-- Redução de bundle enviado ao cliente.
-- Menor consumo de memória no browser e menor tempo de render inicial.
-- Mudança na arquitetura: separar **componentes interativos** e **renderização pesada** no server.
-
-**Perguntas-guia:**
-
-- Quais métricas de performance melhoram com Server Components?
-- Como dividir lógica e dados entre client e server para otimização?
-- Limitações de rede e latência: como impactam performance?
-
----
-
-### **6. Limitações e padrões emergentes (Next.js 14/15, React 19)**
+### **5. Limitações e padrões emergentes (Next.js 14/15, React 19)**
 
 **Conceitos a aprofundar:**
 
@@ -98,7 +82,7 @@
 
 ---
 
-### **7. O futuro da renderização no React**
+### **6. O futuro da renderização no React**
 
 **Conceitos a aprofundar:**
 
