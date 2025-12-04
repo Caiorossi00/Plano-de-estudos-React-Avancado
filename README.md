@@ -127,7 +127,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- Trade-offs: abstração vs clareza
+- [x] Trade-offs: abstração vs clareza - (04/12/2025)
 - Decisões guiadas por intenção, não por ferramenta
 - Evolução de código e consistência em equipe
 - Design orientado a previsibilidade e legibilidade
