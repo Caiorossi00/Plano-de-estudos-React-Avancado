@@ -128,7 +128,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 **Tópicos:**
 
 - [x] Trade-offs: abstração vs clareza - (04/12/2025)
-- Decisões guiadas por intenção, não por ferramenta
+- [x] Decisões guiadas por intenção, não por ferramenta - (05/12/2025)
 - Evolução de código e consistência em equipe
 - Design orientado a previsibilidade e legibilidade
 - Pensamento sistêmico no frontend
