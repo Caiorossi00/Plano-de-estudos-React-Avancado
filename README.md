@@ -129,7 +129,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 - [x] Trade-offs: abstração vs clareza - (04/12/2025)
 - [x] Decisões guiadas por intenção, não por ferramenta - (05/12/2025)
-- Evolução de código e consistência em equipe
+- [x] Evolução de código e consistência em equipe - (06/12/2025)
 - Design orientado a previsibilidade e legibilidade
 - Pensamento sistêmico no frontend
 - React como ferramenta, não fim
