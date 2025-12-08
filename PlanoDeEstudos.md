@@ -2,6 +2,19 @@
 
 ---
 
+### **MÓDULO 0 – Intenção, Método e Preparação Conceitual**
+
+**Objetivo:** Contextualizar o leitor sobre o propósito do material, estabelecer as premissas conceituais necessárias para acompanhar os módulos avançados e apresentar o formato pedagógico adotado no projeto.
+
+**Tópicos:**
+
+- Como este material foi construído (processo, constância e prática deliberada)
+- Por que este material existe e qual problema resolve
+- Metodologia de Estudo e Estrutura dos Módulos
+- Preparação para os módulos avançados
+
+---
+
 ### **MÓDULO 1 – Filosofia e Paradigma do React**
 
 **Objetivo:** Entender o _porquê_ do React existir e o que ele representa no contexto da engenharia de interfaces.
@@ -16,7 +29,6 @@
 - O que diferencia o React de frameworks MVVM/MVC tradicionais
 
 **Fontes de estudo:**
-f
 
 - _React Docs – Thinking in React_
 - _React as a UI Runtime_ – Dan Abramov
