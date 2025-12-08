@@ -6,6 +6,19 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ---
 
+## MÓDULO 0 – Intenção, Método e Preparação Conceitual
+
+**Objetivo:** Contextualizar o leitor sobre o propósito do material, estabelecer as premissas conceituais necessárias para acompanhar os módulos avançados e apresentar o formato pedagógico adotado no projeto.
+
+**Tópicos:**
+
+- [x] Como este material foi construído (processo, constância e prática deliberada)- (08/12/2025)
+- [x] Por que este material existe e qual problema resolve - (08/12/2025)
+- [x] Metodologia de Estudo e Estrutura dos Módulos - (08/12/2025)
+- [x] Preparação para os módulos avançados - (08/12/2025)
+
+---
+
 ## Módulo 1 – Filosofia e Paradigma do React
 
 **Objetivo:** Entender o _porquê_ do React existir e o que ele representa no contexto da engenharia de interfaces.
