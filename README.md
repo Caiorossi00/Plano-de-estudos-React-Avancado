@@ -145,7 +145,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Evolução de código e consistência em equipe - (06/12/2025)
 - [x] Design orientado a previsibilidade e legibilidade - (08/12/2025)
 - [x] Pensamento sistêmico no frontend - (09/12/2025)
-- React como ferramenta, não fim
+- [x] React como ferramenta, não fim - (10/12/2025)
 - Como pensar como um engenheiro de interface
 
 ---
