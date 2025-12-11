@@ -95,7 +95,7 @@
 
 ---
 
-### **7. Como pensar como um engenheiro de interface**
+### **7. Como pensar como um engenheiro de interfaces**
 
 **Conceitos a aprofundar:**
 
