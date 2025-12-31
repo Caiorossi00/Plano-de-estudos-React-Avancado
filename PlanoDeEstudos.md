@@ -2,7 +2,7 @@
 
 ---
 
-### **MÓDULO 0 – Intenção, Método e Preparação Conceitual**
+### **[MÓDULO 0](./Módulo%200) – Intenção, Método e Preparação Conceitual**
 
 **Objetivo:** Contextualizar o leitor sobre o propósito do material, estabelecer as premissas conceituais necessárias para acompanhar os módulos avançados e apresentar o formato pedagógico adotado no projeto.
 
@@ -15,7 +15,7 @@
 
 ---
 
-### **MÓDULO 1 – Filosofia e Paradigma do React**
+### **[MÓDULO 1](./Módulo%201) – Filosofia e Paradigma do React**
 
 **Objetivo:** Entender o _porquê_ do React existir e o que ele representa no contexto da engenharia de interfaces.
 
@@ -36,7 +36,7 @@
 
 ---
 
-### **MÓDULO 2 – O motor do React (Virtual DOM e Fiber)**
+### **[MÓDULO 2](./Módulo%202) – O motor do React (Virtual DOM e Fiber)**
 
 **Objetivo:** Entender como o React transforma estado em UI e o que realmente acontece na renderização.
 
@@ -59,7 +59,7 @@
 
 ---
 
-### **MÓDULO 3 – Hooks em nível conceitual**
+### **[MÓDULO 3](./Módulo%203) – Hooks em nível conceitual**
 
 **Objetivo:** Compreender o funcionamento interno, as restrições e as razões conceituais dos hooks.
 
@@ -85,7 +85,7 @@
 
 ---
 
-### **MÓDULO 4 – Estado, dados e arquitetura**
+### **[MÓDULO 4](./Módulo%204) – Estado, dados e arquitetura**
 
 **Objetivo:** Entender como o React lida com o estado, quais são os tipos e os padrões arquiteturais envolvidos.
 
@@ -110,7 +110,7 @@
 
 ---
 
-### **MÓDULO 5 – Renderização e performance**
+### **[MÓDULO 5](./Módulo%205) – Renderização e performance**
 
 **Objetivo:** Compreender o modelo de renderização e como o React otimiza o processo.
 
@@ -133,7 +133,7 @@
 
 ---
 
-### **MÓDULO 6 – Composição e padrões de arquitetura**
+### **[MÓDULO 6](./Módulo%206) – Composição e padrões de arquitetura**
 
 **Objetivo:** Entender como estruturar componentes e lógica de forma escalável.
 
@@ -155,7 +155,7 @@
 
 ---
 
-### **MÓDULO 7 – React moderno e Server Components**
+### **[MÓDULO 7](./Módulo%207) – React moderno e Server Components**
 
 **Objetivo:** Entender a nova arquitetura e a separação entre client e server components.
 
@@ -177,7 +177,7 @@
 
 ---
 
-### **MÓDULO 8 – Filosofia de Engenharia Frontend**
+### **[MÓDULO 8](./Módulo%208) – Filosofia de Engenharia Frontend**
 
 **Objetivo:** Consolidar mentalidade e princípios de decisão técnica em React.
 
