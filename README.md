@@ -6,7 +6,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ---
 
-## [MÓDULO 0](../Módulo%200) – Intenção, Método e Preparação Conceitual
+## [MÓDULO 0](./React/Módulo%200) – Intenção, Método e Preparação Conceitual
 
 **Objetivo:** Contextualizar o leitor sobre o propósito do material, estabelecer as premissas conceituais necessárias para acompanhar os módulos avançados e apresentar o formato pedagógico adotado no projeto.
 
