@@ -12,7 +12,7 @@
 
 #### 01. Tipos e coerção
 
-- Tipos primitivos
+- Tipos primitivos - (17/01/2026)
 - `typeof`
 - `null` vs `undefined`
 - `==` vs `===`
