@@ -1,0 +1,41 @@
+No Javascript, os tipos primitivos representam valores simples e indivisíveis que não possuem identidade própria nem estado mutável. Atualmente, a linguagem define sete tipos primitivos:
+
+- number
+- string
+- boolean
+- undefined
+- null
+- symbol
+- bigint
+
+O tipo number representa valores numéricos, sejam eles inteiros ou de ponto flutuante. Não existe distinção interna entre números inteiros e decimais, e operações matemáticas sempre resultam em novos valores, nunca alterando o valor original.
+
+O tipo string representa sequências de caracteres. Strings são imutáveis, o que significa que qualquer operação que pareça modificar uma string, como uma concatenação ou substituição de caracteres, na verdade, cria uma nova string.
+
+O tipo boolean representa valores lógicos, restritos a true ou false. Ele é usado principalmente em controle de fluxo e expressões condicionais, sempre como um valor simples e direto.
+
+O tipo undefined indica a ausência de um valor atribuído. Ele aparece, por exemplo, quando uma variável é declarada mas não inicializada, ou quando uma função não retorna explicitamente um valor.
+
+O tipo null representa a ausência intencional de valor. Diferentemente de undefined, ele é normalmente atribuído de forma explícita pelo desenvolvedor para indicar algo que está vazio ou não possui valor.
+
+O tipo symbol representa números inteiros de precisão arbitrária. Ele permite trabalhar com valores inteiros muito grandes, além do limite seguro do tipo number, mantendo as mesmas propriedades de imutabilidade dos demais primitivos.
+
+Esses tipos formam a base sobre a qual todo o restante do Javascript é construído. Entender como cada um se comporta como valor primitivo é essencial para compreender coerção, comparações, passagem de valores e o funcionamento geral da linguagem.
+
+Diferentemente de estruturas mais complexas, um primitivo não é composto por outros valores nem possui estado interno que possa ser alterado ao longo do tempo. Ele existe como um valor puro no runtime, e não como uma entidade que encapsula dados. Essa distinção é fundamental porque a linguagem opera com dois modelos de dados diferentes: valores primitivos, que são tratados diretamente, e objetos, que são manipulados por referência.
+
+A diferença entre trabalhar com valor e trabalhar com referência define grande parte do comportamento do Javascript. Quando um primitivo é atribuído a uma variável, o que se tem é uma cópia do valor, não um apontamento para um local compartilhado. Cada variável possui a sua própria instância daquele valor, mesmo que o conteúdo seja idêntico. Já no caso de objetos, a variável não contém o objeto em si, mas uma referência para ele. Isso significa que múltiplas variáveis podem apontar para a mesma estrutura, compartilhando identidade e estado. Essa separação permite que valores simples sejam previsíveis e baratos de manipular, enquanto estruturas complexas permanecem flexíveis e mutáveis.
+
+Os tipos primitivos são imutáveis por decisão de design da linguagem, não por limitação técnica. Se números, strings ou booleanos pudessem ser alterados internamente, o runtime precisaria lidar com estados mutáveis em entidades que são usadas massivamente, o que tornaria comparações mais complexas, operações menos previsíveis e o desempenho inferior. Ao tornar primitivos imutáveis, o Javascript garante que qualquer operação que "altere" um valor na verdade cria um novo valor, preservando o original. Isso simplifica o raciocínio sobre o código e permite otimizações internas mais agressivas.
+
+Na prática, essa imutabilidade traz consequências importantes. Valores primitivos podem ser passados livremente entre funções sem riscos de efeitos colaterais, pois nenhuma função consegue alterar o valor original recebido como argumento. Comparações entre primitivos também são diretas, já que não envolvem identidade ou estado compartilhado, apenas o valor em si. Esse comportamento torna o uso de igualdade estrita previsível e confiável quando se trabalha com tipos primitivos.
+
+Apesar de primitivos não possuírem métodos ou propriedades próprias, o Javascript permite que eles aparentem esse comportamento por meio de um mecanismo interno de encapsulamento temporário. Quando uma operação acessa um método ou propriedade em um primitivo, o runtime cria momentaneamente um objeto correspondente apenas para viabilizar a operação, descartando-o logo em seguida. Esse detalhe de implementação não altera a natureza imutável do valor, mas ajuda a explicar porque primitivos parecem, superficialmente, se comportar como objetos em alguns contextos.
+
+No javascript, quando dizemos que um tipo primitivo é imutável, não estamos dizendo que a variável que o contém é imutável. Estamos dizendo que o valor sem si não pode ser alterado internamente. A variável é apenas um rótulo, um identificador que aponta para um valor em determinado momento. Ela pode passar a apontar para outro valor depois, mas o valor original nunca é modificado.
+
+Quando você declara uma variável como nome e atribui a ela uma string, essa variável passa a referenciar um valor primitivo específico. Se em algum momento você "muda" o nome, o que realmente acontece não é uma modificação da string original, mas uma reatribuição da variável para um novo valor primitivo. A string anterior continua existindo como um valor independente até ser descartada pelo garbage collector. Não existe, em nenhum momento, uma string sendo alterada caractere por caractere.
+
+O mesmo raciocínio se aplica a uma variável como idade, que armazena um número. O valor numérico é um primitivo imutável. Quando você incrementa a idade, não existe um número sendo modificado internamente. O Javascript cria um novo valor numérico com o resultado da operação e faz a variável passar a apontar para esse novo valor. A variável muda de referência, o valor nunca muda. Portanto, ao pensar em variáveis como nome ou idade, é útil imaginar que elas são ponteiros mutáveis para valores imutáveis. Quando a referência muda, o valor antigo permanece intacto até que o garbage collector decida liberá-lo. Esse mecanismo garante que a imutabilidade dos primitivos não cause desperdício de memória, tornando o javascript previsível, seguro e eficiente para a manipulação de dados simples.
+
+Essa distinção é sutil, mas fundamental. A variável é mutável por padrão (você pode reatribuir um valor a ela). O valor primitivo, por outro lado, é imutável (ele nunca muda depois de criado). Confundir essas duas coisas leva à falsa impressão de que strings e números "mudam", quando na verdade eles são constantemente substituídos por novos valores.
