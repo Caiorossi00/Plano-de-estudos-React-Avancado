@@ -2,13 +2,9 @@
 
 ## Fundamentos da linguagem, execução e preparação para entrevistas técnicas
 
----
-
 ## Módulo 1
 
 ### Fundamentos da Linguagem
-
----
 
 #### 01. Tipos e coerção
 
@@ -359,7 +355,7 @@
 
 ---
 
-#### 24 — Consolidação estrutural
+#### 24.Consolidação estrutural
 
 - Closures
 - Prototypes
