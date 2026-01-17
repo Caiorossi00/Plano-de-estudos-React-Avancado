@@ -1,5 +1,4 @@
-# JavaScript:Guia de Bolso para Desenvolvedores
-
+# JavaScript: Guia de Bolso para Desenvolvedores
 ## Fundamentos da linguagem, execução e preparação para entrevistas técnicas
 
 ## Módulo 1
