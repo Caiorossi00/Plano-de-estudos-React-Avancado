@@ -1,4 +1,5 @@
 # JavaScript: Guia de Bolso para Desenvolvedores
+
 ## Fundamentos da linguagem, execução e preparação para entrevistas técnicas
 
 ## Módulo 1
@@ -9,7 +10,7 @@
 
 - Tipos primitivos - (17/01/2026)
 - `typeof` - (17/01/2026)
-- `null` vs `undefined`
+- `null` vs `undefined` - (19/01/2026)
 - `==` vs `===`
 
 **Exercícios**
