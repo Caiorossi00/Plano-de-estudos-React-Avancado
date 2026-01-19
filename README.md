@@ -188,9 +188,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 **Exercícios**
 
-- Demonstrar diferenças de escopo
-- Identificar erros causados por hoisting
-- Controlar visibilidade de variáveis
+- [x] Demonstrar diferenças de escopo
+- [x] Identificar erros causados por hoisting
+- [x] Controlar visibilidade de variáveis
 
 ---
 
