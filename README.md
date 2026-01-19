@@ -182,7 +182,7 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 02. Variáveis e escopo
 
-- `var`, `let`, `const`
+- [x]`var`, `let`, `const` - (19/01/2026)
 - Escopo global, de função e de bloco
 - Hoisting de variáveis e funções
 
