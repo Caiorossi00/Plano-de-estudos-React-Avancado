@@ -1,16 +1,14 @@
 # JavaScript: Guia de Bolso para Desenvolvedores
 
-## Fundamentos da linguagem, execução e preparação para entrevistas técnicas
-
 ## Módulo 1
 
 ### Fundamentos da Linguagem
 
 #### 01. Tipos e coerção
 
-- Tipos primitivos - (17/01/2026)
-- `typeof` - (17/01/2026)
-- `null` vs `undefined` - (19/01/2026)
+- Tipos primitivos
+- `typeof`
+- `null` vs `undefined`
 - `==` vs `===`
 
 **Exercícios**
