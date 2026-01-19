@@ -150,8 +150,6 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ---
 
-<br>
-
 # JavaScript - Guia de Bolso para Desenvolvedores
 
 ## MÓDULO 0 – Intenção, Método e Preparação Conceitual
@@ -176,9 +174,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 **Exercícios**
 
-- Criar funções que validem tipos de dados
-- Comparar valores utilizando coerção implícita e comparação estrita
-- Identificar tipos em tempo de execução
+- [x] Criar funções que validem tipos de dados - (19/01/2026)
+- [x] Comparar valores utilizando coerção implícita e comparação estrita - (19/01/2026)
+- [x] Identificar tipos em tempo de execução - (19/01/2026)
 
 ---
 
