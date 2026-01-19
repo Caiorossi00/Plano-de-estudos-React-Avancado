@@ -149,3 +149,353 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 - [x] Como pensar como um engenheiro de interfaces - (10/12/2025)
 
 ---
+
+# JavaScript - Guia de Bolso para Desenvolvedores (Fundamentos da linguagem, execução e preparação para entrevistas técnicas)
+
+---
+
+## MÓDULO 0 – Intenção, Método e Preparação Conceitual
+
+**Tópicos:**
+
+- TBD
+
+---
+
+## Módulo 1 – Fundamentos da Linguagem
+
+### 01. Tipos e coerção
+
+- Tipos primitivos - (17/01/2026)
+- `typeof`- (17/01/2026)
+- `null` vs `undefined` - (19/01/2026)
+- `==` vs `===`
+
+**Exercícios**
+
+- Criar funções que validem tipos de dados
+- Comparar valores utilizando coerção implícita e comparação estrita
+- Identificar tipos em tempo de execução
+
+---
+
+### 02. Variáveis e escopo
+
+- `var`, `let`, `const`
+- Escopo global, de função e de bloco
+- Hoisting de variáveis e funções
+
+**Exercícios**
+
+- Demonstrar diferenças de escopo
+- Identificar erros causados por hoisting
+- Controlar visibilidade de variáveis
+
+---
+
+### 03. Funções
+
+- Function declaration
+- Function expression
+- Arrow functions
+- Diferenças semânticas e de uso
+
+**Exercícios**
+
+- Criar funções de cálculo
+- Converter entre tipos de funções
+- Passar funções como argumento
+
+---
+
+### 04. Contexto (`this`)
+
+- `this` no escopo global
+- `this` em métodos
+- `this` em funções tradicionais
+- `this` em arrow functions
+- `bind`, `call`, `apply`
+
+**Exercícios**
+
+- Criar objetos dependentes de `this`
+- Forçar mudança de contexto
+- Corrigir problemas de binding
+
+---
+
+### 05. Arrays
+
+- Estrutura de arrays
+- Métodos (`map`, `filter`, `reduce`, `find`)
+- Imutabilidade
+
+**Exercícios**
+
+- Transformar e filtrar arrays
+- Reduzir arrays a valores únicos
+- Resolver problemas com e sem mutação
+
+---
+
+### 06. Objetos
+
+- Objetos literais
+- Propriedades e métodos
+- Acesso dinâmico
+- Mutação vs cópia
+- Spread operator
+
+**Exercícios**
+
+- Criar objetos dinamicamente
+- Atualizar propriedades sem mutar
+- Clonar objetos rasos
+
+---
+
+## Módulo 2 – Assíncronismo e Modelo de Execução
+
+### 07. Execução síncrona e Call Stack
+
+- Execução passo a passo
+- Pilha de chamadas
+- Ordem de execução
+
+**Exercícios**
+
+- Criar funções encadeadas
+- Prever ordem de execução
+
+---
+
+### 08. Callbacks
+
+- Funções de callback
+- Execução adiada
+- Callback hell (conceito)
+
+**Exercícios**
+
+- Criar funções com callbacks
+- Simular operações assíncronas
+
+---
+
+### 09. Promises
+
+- Criação de Promise
+- Estados
+- `then`, `catch`
+- Encadeamento
+
+**Exercícios**
+
+- Criar Promises resolvidas e rejeitadas
+- Encadear Promises
+
+---
+
+### 10. Async / Await
+
+- Funções assíncronas
+- Fluxo sequencial vs paralelo
+
+**Exercícios**
+
+- Reescrever Promises
+- Executar tarefas em paralelo
+
+---
+
+### 11. Tratamento de erros assíncronos
+
+- `try / catch`
+- Erros em funções assíncronas
+
+**Exercícios**
+
+- Lançar e tratar erros
+- Diferenciar erros esperados e inesperados
+
+---
+
+### 12. Event Loop
+
+- Call Stack
+- Microtasks
+- Macrotasks
+- Ordem de execução
+
+**Exercícios**
+
+- Prever execução com `setTimeout` e Promises
+- Validar comportamento no runtime
+
+---
+
+## Módulo 3 – Estrutura da Linguagem
+
+### 13. Closures
+
+- Escopo léxico
+- Persistência de estado
+
+**Exercícios**
+
+- Criar funções com estado interno
+- Encapsular dados
+
+---
+
+### 14. Prototypes
+
+- Prototype chain
+- Herança prototipal
+
+**Exercícios**
+
+- Criar construtores
+- Compartilhar métodos
+
+---
+
+### 15. Classes
+
+- `class`, `constructor`
+- `extends`, `super`
+- Sobrescrita
+
+**Exercícios**
+
+- Criar hierarquias
+- Sobrescrever métodos
+
+---
+
+### 16. Módulos
+
+- `import` / `export`
+- Organização e responsabilidade
+
+**Exercícios**
+
+- Criar módulos reutilizáveis
+- Separar responsabilidades
+
+---
+
+### 17. Validação e erros
+
+- Criação de erros
+- Fluxo de erro
+
+**Exercícios**
+
+- Criar validadores
+- Lançar erros customizados
+
+---
+
+### 18. Imutabilidade
+
+- Estado imutável
+- Cópia rasa vs profunda
+
+**Exercícios**
+
+- Atualizar estruturas sem mutar
+- Identificar mutações acidentais
+
+---
+
+## Módulo 4 – Robustez e Qualidade
+
+### 19. Performance básica
+
+- Loops
+- Complexidade básica
+- Custo de operações
+
+**Exercícios**
+
+- Comparar abordagens
+- Identificar gargalos
+
+---
+
+### 20. Debounce e Throttle
+
+- Controle de execução
+- Temporização
+
+**Exercícios**
+
+- Implementar debounce
+- Implementar throttle
+
+---
+
+### 21. Memória
+
+- Garbage Collection
+- Vazamentos
+- Referências persistentes
+
+**Exercícios**
+
+- Identificar leaks
+- Controlar ciclo de vida
+
+---
+
+### 22. Testes básicos
+
+- Testes unitários
+- Casos de teste
+
+**Exercícios**
+
+- Criar funções puras
+- Escrever testes
+
+---
+
+### 23. Consolidação de assíncronismo
+
+- Promises
+- `async/await`
+- Event Loop
+
+**Exercícios**
+
+- Controlar concorrência
+- Tratar falhas em lote
+
+---
+
+### 24. Consolidação estrutural
+
+- Closures
+- Prototypes
+- Classes
+
+**Exercícios**
+
+- Reimplementar conceitos sem consulta
+- Criar soluções do zero
+
+---
+
+## Projeto Final
+
+**Requisitos:**
+
+- Código modular
+- Uso de assíncronismo
+- Controle de estado
+- Tratamento consistente de erros
+
+---
+
+Este plano serve como **base conceitual para qualquer framework ou ambiente JavaScript**, garantindo domínio real da linguagem e capacidade de decisão técnica consciente.
