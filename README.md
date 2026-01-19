@@ -150,7 +150,9 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ---
 
-# JavaScript - Guia de Bolso para Desenvolvedores (Fundamentos da linguagem, execução e preparação para entrevistas técnicas)
+<br><br>
+
+# JavaScript - Guia de Bolso para Desenvolvedores
 
 ---
 
@@ -166,91 +168,94 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ### 01. Tipos e coerção
 
-- Tipos primitivos - (17/01/2026)
-- `typeof`- (17/01/2026)
-- `null` vs `undefined` - (19/01/2026)
-- `==` vs `===`
+-[x]Tipos primitivos - (17/01/2026)
+
+-[x]`typeof`- (17/01/2026)
+
+-[x]`null` vs `undefined` - (19/01/2026)
+
+-[]`==` vs `===`
 
 **Exercícios**
 
-- Criar funções que validem tipos de dados
-- Comparar valores utilizando coerção implícita e comparação estrita
-- Identificar tipos em tempo de execução
+- [] Criar funções que validem tipos de dados
+- [] Comparar valores utilizando coerção implícita e comparação estrita
+- [] Identificar tipos em tempo de execução
 
 ---
 
 ### 02. Variáveis e escopo
 
-- `var`, `let`, `const`
-- Escopo global, de função e de bloco
-- Hoisting de variáveis e funções
+- [] `var`, `let`, `const`
+- [] Escopo global, de função e de bloco
+- [] Hoisting de variáveis e funções
 
 **Exercícios**
 
-- Demonstrar diferenças de escopo
-- Identificar erros causados por hoisting
-- Controlar visibilidade de variáveis
+- [] Demonstrar diferenças de escopo
+- [] Identificar erros causados por hoisting
+- [] Controlar visibilidade de variáveis
 
 ---
 
 ### 03. Funções
 
-- Function declaration
-- Function expression
-- Arrow functions
-- Diferenças semânticas e de uso
+- [] Function declaration
+- [] Function expression
+- [] Arrow functions
+- [] Diferenças semânticas e de uso
 
 **Exercícios**
 
-- Criar funções de cálculo
-- Converter entre tipos de funções
-- Passar funções como argumento
+- [] Criar funções de cálculo
+- [] Converter entre tipos de funções
+- [] Passar funções como argumento
 
 ---
 
 ### 04. Contexto (`this`)
 
-- `this` no escopo global
-- `this` em métodos
-- `this` em funções tradicionais
-- `this` em arrow functions
-- `bind`, `call`, `apply`
+- [] `this` no escopo global
+- [] `this` em métodos
+- [] `this` em funções tradicionais
+- [] `this` em arrow functions
+- [] `bind`, `call`, `apply`
 
 **Exercícios**
 
-- Criar objetos dependentes de `this`
-- Forçar mudança de contexto
-- Corrigir problemas de binding
+- [] Criar objetos dependentes de `this`
+- [] Forçar mudança de contexto
+- [] Corrigir problemas de binding
 
 ---
 
 ### 05. Arrays
 
-- Estrutura de arrays
-- Métodos (`map`, `filter`, `reduce`, `find`)
-- Imutabilidade
+- [] Estrutura de arrays
+- [] Métodos (`map`, `filter`, `reduce`, `find`)
+- [] Imutabilidade
 
 **Exercícios**
 
-- Transformar e filtrar arrays
-- Reduzir arrays a valores únicos
-- Resolver problemas com e sem mutação
+- [] Transformar e filtrar arrays
+- [] Reduzir arrays a valores únicos
+- [] Resolver problemas com e sem mutação
 
 ---
 
 ### 06. Objetos
 
-- Objetos literais
-- Propriedades e métodos
-- Acesso dinâmico
-- Mutação vs cópia
-- Spread operator
+- [] Objetos literais
+- [] Propriedades e métodos
+- [] Acesso dinâmico
+- [] Mutação vs cópia
+- [] Spread operator
 
 **Exercícios**
 
-- Criar objetos dinamicamente
-- Atualizar propriedades sem mutar
-- Clonar objetos rasos
+- [] Criar objetos dinamicamente
+- [] Atualizar propriedades sem mutar
+- [] Clonar objetos rasos
 
 ---
 
