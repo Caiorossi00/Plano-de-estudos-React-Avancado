@@ -150,7 +150,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ---
 
-<br><br>
+<br>
 
 # JavaScript - Guia de Bolso para Desenvolvedores
 
@@ -160,7 +160,7 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 **Tópicos:**
 
-- TBD
+- [] TBD
 
 ---
 
@@ -168,13 +168,10 @@ Todas as anotações, exemplos e reflexões sobre os temas estão organizados na
 
 ### 01. Tipos e coerção
 
--[x]Tipos primitivos - (17/01/2026)
-
--[x]`typeof`- (17/01/2026)
-
--[x]`null` vs `undefined` - (19/01/2026)
-
--[]`==` vs `===`
+- [x] Tipos primitivos - (17/01/2026)
+- [x] `typeof`- (17/01/2026)
+- [x] `null` vs `undefined` - (19/01/2026)
+- [x] `==` vs `===` - (19/01/2026)
 
 **Exercícios**
 
