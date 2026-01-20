@@ -1,0 +1,9 @@
+Em funções tradicionais, o valor de this não é determinado pelo local onde a função foi definida,mas sim pela forma como ela é executada. Essa característica faz com que this seja dinâmico nesse tipo de e função, variando de acordo com o contexto da chamada, o que pode gerar confusão para quem ainda não domina o modelo da linguagem. 
+
+Quando uma função tradicional é chamada de forma simples, sem estar associada a um objeto, o valor de this depende do ambiente e do modo de execução. Em código que não está em modo estrito, this aponta para o objeto global. Já em modo estrito, this é undefined, o que ajuda a evitar acessos acidentais ao escopo global e torna erros de contexto mais visíveis durante o desenvolvimento. 
+
+Se essa mesma função tradicional for chamada como método de um objeto, o comportamento muda. Nesse caso, this passa a referenciar o objeto que realizou a chamada, seguindo a mesma regra aplicada aos métodos de objeto. Isso demonstra que a função em si não carrega um this fixo, ela apenas o utiliza o contexto fornecido no momento da execução.
+
+Esse comportamento dinâmico é poderoso, mas também arriscado. Funções tradicionais usadas como callbacks, por exemplo, frequentemente perdem o contexto esperado, fazendo com que this aponte para o objeto global ou se torne undefined. Esse é um dos motivos históricos que levaram ao uso frequente de soluções como variáveis auxiliares, bind, ou posteriormente arrow functions, para preservar o contexto correto. 
+
+Portanto, em funções tradicionais, this deve ser entendido como um valor definido em tempo de execução, não em tempo de declaração. Compreender essa regra é fundamental para escrever código previsível, evitar efeitos colaterais indesejados e entender por que o javascript oferece mecanismos explícitos para controle de contexto.

@@ -1,0 +1,11 @@
+Os métodos bind, call e apply existem para controlar explicitamente o valor de this em funções tradicionais. Eles partem da própria API de funções no javascript e foram criados para lidar com o caráter dinâmico do this, permitindo que o desenvolvedor defina, force ou reutilize um contexto específico durante a execução de uma função.
+
+O método call executa a função imediatamente, definindo qual será o valor de this no momento da chamada. O primeiro argumento passado para call é o contexto que a função deve usar como this, e os argumentos seguintes são passados individualmente para a função. Seu uso é comum quando se quer reutilizar uma função em diferentes contextos sem precisar copiá-la ou transofmá-la em método de um objeto específico.
+
+O método apply é conceitualmente idêntico ao call, com a única diferença estando na forma como os argumentos são fornecidos. Em vez de receber os argumentos separadamente, apply recebe um único array contendo todos os argumentos da função. Essa forma é especialmente útil quando os dados já estão organizados em uma lista ou quando se trabalha com quantidades variáveis de parâmetros.
+
+O método bind funciona de maneira diferente. Ele não executa a função imediatamente. Em vez disso, ele retorna uma nova função com o valor de this permanentemente associado ao contexto fornecido. Essa nova função pode ser chamada posteriormente, e seu this não poderá mais sel alterado, independentemente da forma como ela for invocada. Por esse motivo, bind é amplamente utilizado para preservar contexto em callbacks, handlers de eventos e funções passadas como argumento.
+
+Esses três métodos só têm efeito sobre funções tradicionais, pois são elas que possuem um this dinâmico. Arrow functions ignoram completamente bind, cal le apply, já que o seu this é definido lexicalmente no momento da criação e não pode ser redefinido em tempo de execução.
+
+Em termos de uso prático, call e apply são ferramentas de execução imediata com controle de contexto, enquanto bind é uma ferramenta de preparação, usada para criar funções com contexto fixo. Entender essa diferença é essencial para manipular corretamente o this e evitar comportamentos inesperados em código javascript mais complexo. 

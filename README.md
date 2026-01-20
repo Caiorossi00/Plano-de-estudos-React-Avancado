@@ -172,12 +172,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - [x] `null` vs `undefined` - (19/01/2026)
 - [x] `==` vs `===` - (19/01/2026)
 
-**Exercícios**
-
-- [x] Criar funções que validem tipos de dados - (19/01/2026)
-- [x] Comparar valores utilizando coerção implícita e comparação estrita - (19/01/2026)
-- [x] Identificar tipos em tempo de execução - (19/01/2026)
-
 ---
 
 ### 02. Variáveis e escopo
@@ -185,12 +179,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - [x] `var`, `let`, `const` - (19/01/2026)
 - [x] Escopo global, de função e de bloco - (19/01/2026)
 - [x] Hoisting de variáveis e funções - (19/01/2026)
-
-**Exercícios**
-
-- [x] Demonstrar diferenças de escopo - (19/01/2026)
-- [x] Identificar erros causados por hoisting - (19/01/2026)
-- [x] Controlar visibilidade de variáveis - (19/01/2026)
 
 ---
 
@@ -201,27 +189,15 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - [x] Arrow functions - (20/01/2026)
 - [x] Diferenças semânticas e de uso - (20/01/2026)
 
-**Exercícios**
-
-- Criar funções de cálculo
-- Converter entre tipos de funções
-- Passar funções como argumento
-
 ---
 
 ### 04. Contexto (`this`)
 
-- `this` no escopo global
-- `this` em métodos
-- `this` em funções tradicionais
-- `this` em arrow functions
-- `bind`, `call`, `apply`
-
-**Exercícios**
-
-- Criar objetos dependentes de `this`
-- Forçar mudança de contexto
-- Corrigir problemas de binding
+- [x] `this` no escopo global - (20/01/2026)
+- [x] `this` em métodos de objeto - (20/01/2026)
+- [x] `this` em funções tradicionais - (20/01/2026)
+- [x] `this` em arrow functions - (20/01/2026)
+- [x] `bind`, `call`, `apply` - (20/01/2026)
 
 ---
 
@@ -230,12 +206,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Estrutura de arrays
 - Métodos (`map`, `filter`, `reduce`, `find`)
 - Imutabilidade
-
-**Exercícios**
-
-- Transformar e filtrar arrays
-- Reduzir arrays a valores únicos
-- Resolver problemas com e sem mutação
 
 ---
 
@@ -247,12 +217,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Mutação vs cópia
 - Spread operator
 
-**Exercícios**
-
-- Criar objetos dinamicamente
-- Atualizar propriedades sem mutar
-- Clonar objetos rasos
-
 ---
 
 ## Módulo 2 – Assíncronismo e Modelo de Execução
@@ -263,11 +227,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Pilha de chamadas
 - Ordem de execução
 
-**Exercícios**
-
-- Criar funções encadeadas
-- Prever ordem de execução
-
 ---
 
 ### 08. Callbacks
@@ -275,11 +234,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Funções de callback
 - Execução adiada
 - Callback hell (conceito)
-
-**Exercícios**
-
-- Criar funções com callbacks
-- Simular operações assíncronas
 
 ---
 
@@ -290,11 +244,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - `then`, `catch`
 - Encadeamento
 
-**Exercícios**
-
-- Criar Promises resolvidas e rejeitadas
-- Encadear Promises
-
 ---
 
 ### 10. Async / Await
@@ -302,22 +251,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Funções assíncronas
 - Fluxo sequencial vs paralelo
 
-**Exercícios**
-
-- Reescrever Promises
-- Executar tarefas em paralelo
-
 ---
 
 ### 11. Tratamento de erros assíncronos
 
 - `try / catch`
 - Erros em funções assíncronas
-
-**Exercícios**
-
-- Lançar e tratar erros
-- Diferenciar erros esperados e inesperados
 
 ---
 
@@ -328,11 +267,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Macrotasks
 - Ordem de execução
 
-**Exercícios**
-
-- Prever execução com `setTimeout` e Promises
-- Validar comportamento no runtime
-
 ---
 
 ## Módulo 3 – Estrutura da Linguagem
@@ -342,22 +276,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Escopo léxico
 - Persistência de estado
 
-**Exercícios**
-
-- Criar funções com estado interno
-- Encapsular dados
-
 ---
 
 ### 14. Prototypes
 
 - Prototype chain
 - Herança prototipal
-
-**Exercícios**
-
-- Criar construtores
-- Compartilhar métodos
 
 ---
 
@@ -367,22 +291,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - `extends`, `super`
 - Sobrescrita
 
-**Exercícios**
-
-- Criar hierarquias
-- Sobrescrever métodos
-
 ---
 
 ### 16. Módulos
 
 - `import` / `export`
 - Organização e responsabilidade
-
-**Exercícios**
-
-- Criar módulos reutilizáveis
-- Separar responsabilidades
 
 ---
 
@@ -391,22 +305,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Criação de erros
 - Fluxo de erro
 
-**Exercícios**
-
-- Criar validadores
-- Lançar erros customizados
-
 ---
 
 ### 18. Imutabilidade
 
 - Estado imutável
 - Cópia rasa vs profunda
-
-**Exercícios**
-
-- Atualizar estruturas sem mutar
-- Identificar mutações acidentais
 
 ---
 
@@ -418,22 +322,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Complexidade básica
 - Custo de operações
 
-**Exercícios**
-
-- Comparar abordagens
-- Identificar gargalos
-
 ---
 
 ### 20. Debounce e Throttle
 
 - Controle de execução
 - Temporização
-
-**Exercícios**
-
-- Implementar debounce
-- Implementar throttle
 
 ---
 
@@ -443,22 +337,12 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Vazamentos
 - Referências persistentes
 
-**Exercícios**
-
-- Identificar leaks
-- Controlar ciclo de vida
-
 ---
 
 ### 22. Testes básicos
 
 - Testes unitários
 - Casos de teste
-
-**Exercícios**
-
-- Criar funções puras
-- Escrever testes
 
 ---
 
@@ -468,11 +352,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - `async/await`
 - Event Loop
 
-**Exercícios**
-
-- Controlar concorrência
-- Tratar falhas em lote
-
 ---
 
 ### 24. Consolidação estrutural
@@ -480,22 +359,6 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - Closures
 - Prototypes
 - Classes
-
-**Exercícios**
-
-- Reimplementar conceitos sem consulta
-- Criar soluções do zero
-
----
-
-## Projeto Final
-
-**Requisitos:**
-
-- Código modular
-- Uso de assíncronismo
-- Controle de estado
-- Tratamento consistente de erros
 
 ---
 
