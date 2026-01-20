@@ -1,0 +1,11 @@
+Function expression é outra forma de definir uma função em javascript, mas, diferentemente da function declaration, a função não é criada como uma declaração de escopo, e sim como um valor atribuído a uma variável.
+
+Quando você escreve uma function expression, o javascript primeiro cria a variável e só depois, durante a execução do código, associa a função a ela. Isso significa que a função não existe antes da linha em que a atribuição acontece. Em termos de modelo de linguagem, a função passa a existir apenas quando aquela expressão é avaliada.
+
+Nesse formato, a função pode ser anônima ou nomeada, mas o nome, quando existe, é interno à própria função e não cria um identificador no escopo externo. O que realmente "aponta" para a função é a variável que recebe essa expressão. Isso reforça a ideia de que funções, em javascript, são valores de primeira classe, podendo ser atribuídas, passadas como argumento ou retornadas de outras funções.
+
+Um ponto central da function expression é o comportamento em relação ao hoisting. Diferentemente da function declaration, apenas a variável é hoistada, não a função em si. Se a variável for declarada com var, ela será hoistada como undefined; se for declarada com let ou const, ela ficará na chamada temporal dead zone até a inicialização. Em todos os casos, tentar usar a função antes da linha onde ela é definida resulta em erro ou comportamento inesperado.
+
+Conceitualmente, function expression deixa explícito que a função é criada em tempo de execução e que sua existência depende do fluxo do código. Isso a torna muito comum em cenários onde funções precisam ser condicionais, passadas dinamicamente ou definidas como parte de uma expressão maior.
+
+Em resumo, function expression não é apenas outra sintaxe, mas uma mudança de modelo  mental: a função deixa de ser uma declaração estrutural do escopo e passa a ser tratada claramente como um valor atribuído, respeitando as regras normais de variáveis e execução do javascript.
