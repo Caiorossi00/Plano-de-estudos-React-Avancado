@@ -199,7 +199,7 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - [x] Function declaration - (20/01/2026)
 - [x] Function expression - (20/01/2026)
 - [x] Arrow functions - (20/01/2026)
-- Diferenças semânticas e de uso
+- [x] Diferenças semânticas e de uso - (20/01/2026)
 
 **Exercícios**
 
