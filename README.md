@@ -203,9 +203,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 05. Arrays
 
-- Estrutura de arrays
-- Métodos (`map`, `filter`, `reduce`, `find`)
-- Imutabilidade
+- [x] Estrutura de arrays - (21/01/2026)
+- [x] Métodos (`map`, `filter`, `reduce`, `find`) - (21/01/2026)
+- [x] Imutabilidade - (21/01/2026)
 
 ---
 
