@@ -211,11 +211,11 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 06. Objetos
 
-- [x] Objetos literais - (21/01/2026)
-- Propriedades e métodos
-- Acesso dinâmico
-- Mutação vs cópia
-- Spread operator
+- [x] Objetos literais - (22/01/2026)
+- [x] Propriedades e métodos - (22/01/2026)
+- [x] Acesso dinâmico - (22/01/2026)
+- [x] Mutação vs cópia - (22/01/2026)
+- [x] Spread operator - (22/01/2026)
 
 ---
 

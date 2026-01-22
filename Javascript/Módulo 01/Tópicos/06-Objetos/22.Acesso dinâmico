@@ -1,0 +1,9 @@
+O acesso dinâmico a propriedades em javascript refere-se à capacidade de acessar ou manipular valores de um objeto utilizando chaves determinadas em tempo de execução, e não apenas nomes de propriedades escritos diretamente no código. Esse mecanismo existe porque objetos em javascript são, conceitualmente, mapas de chaves para valores, onde as chaves são strings ou symbols.
+
+Além da notação por ponto, que exige que o nome da propriedade seja conhecido estaticamente, o javascript permite o acesso por colchetes. Nessa forma, a chave é avaliada como uma expressão, o que torna possível decidir qual propriedade será acessada com base em variáveis, resultados de funções ou qualquer outra lógica executada em runtime. isso é essencial em cenários onde a estrutura do objeto é conhecida, mas as propriedades específicas a serem usadas variam conforme o contexto.
+
+O acesso dinâmico é amplamente utilizado em situações como iteração sobre propriedades, leitura de dados vindos de APIs, construção de objetos de forma programática e implementação de lógicas genéricas. Ele permite escrever código mais flexível e reutilizável, evitando condicionais repetitivas ou estruturas rígidas que dependem de nomes fixos de propriedades.
+
+No entanto, essa flexibilidade vem com responsabilidades. Como o nome da propriedade só é resolvido em tempo de execução, erros de digitação ou chaves inexistentes não são detectados antecipadamente e resultam em valores undefined. Isso exige maior cuidado na validação e no controle de fluxo, especialmente em aplicações maiores ou com dados externos.
+
+Entender o acesso dinâmico é compreender que objetos em javascript não são estruturas fechadas, mas coleções abertas e adaptáveis. Essa característica é uma das bases da natureza dinâmica da linguagem e influencia diretamente a forma como dados são modelados, manipulados e consumidos ao longo da aplicação.

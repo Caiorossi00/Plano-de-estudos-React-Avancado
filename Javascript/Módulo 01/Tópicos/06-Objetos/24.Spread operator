@@ -1,0 +1,9 @@
+O spread operator, representado por três pontos, é um recurso do javascript que permite expandir os valores de uma estrutura iterável ou de um objeto em um novo contexto. No caso de objetos e arrays, ele é amplamente utilizado como uma forma declarativa e legível de criar cópias rasas, combinar estruturas ou adicionar e sobrescrever valores sem modificar o original.
+
+Quando aplicado a objetos, o spread operator percorre suas propriedades enumeráveis e copia cada par de chave e valor para um novo objeto. O resultado é uma nova estrutura, com uma nova referência em memória, o que ajuda a esvitar mutações diretas. Esse comportamento é especialmente útil em padrões que valorizam imutabilidade, pois permite criar versões atualizadas de um objeto sem alterar o estado anterior.
+
+Em arrays, o spread operator expande os elementos individualmente, possibilitando a criação de novos arrays a partir de outros, a concatenação de lsitas ou a inserção de elementos em posições específicas. Assim como nos objetos, o array resultante é uma nova instância, preservando o original intacto.
+
+É importante destacar que o spread operator realiza apenas uma cópia rasa. Isso significa que, se o objeto ou array contiver referências internas, como objetos aninhados, essas referências continuam sendo compartilhadas entre a estrutura original e a nova. O spread não resolve, por si só, problemas relacionados a mutações profundas, mas ainda assim representa um avanço significativo em relação à atribuição direta de referências.
+
+O uso do spread operator melhora a expressividade do código e torna explícita a intenção de criar uma nova estrutura a partir de outra. Ele reforça a distinção entre mutação e cópia, incentiva práticas mais seguras de manipulação de dados e é hoje uma das ferramentas centrais na escrita de javascript moderno e previsível.
