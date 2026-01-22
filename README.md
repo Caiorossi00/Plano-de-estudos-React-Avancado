@@ -211,7 +211,7 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 06. Objetos
 
-- Objetos literais
+- [x] Objetos literais - (21/01/2026)
 - Propriedades e métodos
 - Acesso dinâmico
 - Mutação vs cópia
