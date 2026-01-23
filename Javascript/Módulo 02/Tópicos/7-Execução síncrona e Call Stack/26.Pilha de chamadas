@@ -1,0 +1,8 @@
+A pilha de chamadas, ou call stack, é a estrutura de dados que o javascript utiliza para controlar a execução de funções. Ela funciona como um registro do que está sendo executado no momento e de quais funções ainda precisam ser finalizadas. Cada vez que uma função é chamada, ela é empilhada, quando termina sua execução, ela é removida da pilha. Esse mecanismo garante que o javascript saiba exatamente onde está no fluxo de execução a cada instante.
+
+A pilha segue a lógica de último a entrar, primeiro a sair. Quando uma função chama outra função, a execução da função atual é pausada e a nova função é colocada no topo da pilha. Somente após essa função interna terminar é que o controle retorna para a função anterior. Esse comportamento explica por que funções aninhadas são executadas de dentro para fora, respeitando a ordem de chamadas.
+
+A call stack é diretamente responsável pelo caráter síncrono da execução do javascript. Enquanto houver funções sendo executadas na pilha, nenhuma outra tarefa pode ser processada. Se uma função demorar a terminar, todo o restante do código ficará bloqueado aguardando sua conclusão. Esse bloqueio é um dos principais motivos pelos quais operações potencialmente lentas não são executadas de forma síncrona. 
+
+Além disso, a pilha de chamadas impõe limites práticos. Caso funções sejam chamadas recursivamente sem um critério de parada adequado, a pilha pode crescer indefinidamente até exceder o tamanho máximo permitido pelo runtime, resultando em um erro de estouro de pilha. Entender a call stack é, portanto, essencial não apenas para compreender o fluxo de execução, mas também para escrever código seguro, eficiente e livre de bloqueios desnecessários. 
+

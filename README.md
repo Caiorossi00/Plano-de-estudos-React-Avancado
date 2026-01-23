@@ -223,9 +223,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 07. Execução síncrona e Call Stack
 
-- Execução passo a passo
-- Pilha de chamadas
-- Ordem de execução
+- [x] Execução passo a passo - (23/01/2026)
+- [x] Pilha de chamadas - (23/01/2026)
+- [x] Ordem de execução - (23/01/2026)
 
 ---
 

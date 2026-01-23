@@ -1,0 +1,8 @@
+A execução passo a passo no javascript descreve a forma como o código é interpretado e executado de maneira sequencial pelo motor da linguagem. Em um contexto síncrono, cada instrução é processada integralmente antes que a próxima seja iniciada. isso significa que o fluxo de execução segue exatamente a ordem em que o código foi escrito, de cima para baixo, sem avançar enquanto a instrução atual não for concluída.
+
+Esse modelo é fundamental para entender como o javascript toma decisões e mantém previsibilidade. Quando uma linha de código está em execução, nenhuma outra parte do programa pode ser executada simultaneamente dentro da mesma thread. Funções são chamadas, expressões são avaliadas e valores são atribuídos de forma determinística, criando um fluxo linear que facilita o raciocínio sobre o comportamento do código.
+
+A execução passo a passo também implica que operações mais demoradas, se executadas de forma síncrona, bloqueiam o andamento do programa. Enquanto uma instrução não termina, todo o restante do código aguarda. Esse comportamento explica por que tarefas como leitura de arquivos, requisições de rede ou timer não são executadas de forma síncrona no javascript moderno, pois isso tornaria aplicações interativas lentas ou congeladas.
+
+Compreender essa execução sequencial é essencial para entender o funcionamento da call stack, já que cada passo do código corresponde à entrada e saída de funções nessa pilha. Antes de abordar conceitos como assíncronismo, event loop e filas de tarefas, é necessário internalizar que o javascript, em sua base, executa código de forma estritamente ordenada e passo a passo dentro de uma única linha de execução.
+

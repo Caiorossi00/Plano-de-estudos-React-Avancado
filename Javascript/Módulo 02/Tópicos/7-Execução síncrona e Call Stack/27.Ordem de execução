@@ -1,0 +1,8 @@
+A ordem de execução no javascript é determinada pela combinação entre a execução síncrona do código e o funcionamento da pilha de chamadas. Em um primeiro momento, o motor da linguagem percorre o código de forma sequencial, executando cada instrução na ordem em que aparece no arquivo. Funções só são executadas quando são efetivamente chamadas, e nesse momento passam a integrar a call stack.
+
+Quando uma função é invocada, sua execução tem prioridade total até que seja concluída. Enquanto ela estiver no topo da pilha de chamadas, nenhuma outra função pode ser executada. Se essa função chamar outras funções, essas novas chamadas entram no topo da pilha e precisam ser finalizadas antes que o controle retorne à função original. Esse encadeamento define uma ordem clara e previsível de execução, baseada estritamente na sequência de chamadas.
+
+É importante entender que o javascript não alterna entre tarefas síncronas. Ele executa uma instrução por vez, respeitando rigorosamente a ordem imposta pela pilha. Somente quando a call stack está vazia é que o runtime pode considerar a execução de outras tarefas, como callbacks assíncronos que estejam aguardando em filas específicas. Enquanto isso não acontece, o fluxo segue exclusivamente o caminho definido pelo código síncrono.
+
+Essa característica explica muitos comportamentos que, à primeira vista, parecem contraintuitivos, especialmente quando código assíncrono entra em cena. Antes de compreender o event loop e as filas de tarefas, é fundamental ter clareza de que a ordem de execução síncrona sempre tem prioridade. O javascript só avança para outras tarefas quando a pilha de chamadas está completamente liberada, garantindo consistência e previsibilidade no fluxo de execução.
+
