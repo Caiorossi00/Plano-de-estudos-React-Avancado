@@ -231,9 +231,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 08. Callbacks
 
-- Funções de callback
-- Execução adiada
-- Callback hell (conceito)
+- [x] Funções de callback - (24/01/2026)
+- [x] Execução adiada - (24/01/2026)
+- [x] Callback hell (conceito) - (24/01/2026)
 
 ---
 
