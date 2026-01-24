@@ -1,0 +1,8 @@
+A execução adiada em javascript refere-se ao fato de que determinadas funções não são executadas imediatamente no momento em que são definidas ou passadas como argumento, mas sim em um momento posterior, quando uma condição específica é atendida. Esse conceito está diretamente ligado ao uso de callbacks e ao modelo assíncrono da linguagem.
+
+Quando uma função é passada como callback, o javascript não a executa naquele instante. Em vez disso, ela é registrada para ser chamada mais tarde, normalmente após a conclusão de alguma operação ou a ocorrência de um evento. Esse adiamento permite que o fluxo principal do programa continue sua execução sem bloqueios, mantendo a aplicação responsiva mesmo diante de tarefas que levam tempo para serem concluídas.
+
+A execução adiada só ocorre após a pilha de chamadas estar livre. Enquanto houver código síncrono sendo executado, nenhuma função adiada pode ser chamada. Isso garante que o javascript mantenha sua previsibilidade, respeitando a ordem de execução e evitando concorrência dentro da mesma thread.
+
+Esse mecanismo é fundamental para lidar com operações como timers, requisições de rede e interações do usuário. Em todos esses casos, o código registra o que deve acontecer depois, e o runtime se encarrega de executar essas funções no momento adequado. Compreender execução adiada é essencial para entender por que certas funções parecem "demorar" para rodar e como o javascript consegue simular concorrência mesmo sendo single-threaded.
+

@@ -1,0 +1,9 @@
+Funções de callback são funções passadas como argumento para outra função com o objetivo de serem executadas posteriormente, geralmente como resposta a algum evento, condição ou término de uma operação. Em javascript, funções são cidadãos de primeira classe, o que significa que podem ser atribuídas a variáveis, passadas com parâmetros e retornadas por outras funções. Essa característica torna o uso de callbacks um padrão central na linguagem.
+
+O principal papel de uma callback é desacoplar a definição de uma ação do momento em que ela será executada. A função que recebe a callback não precisa saber como ela funciona internamente, apenas quando deve chamá-la. Isso permite criar APIs mais flexíveis, onde o comportamento pode ser customizado pelo código que faz a chamada.
+
+Callbacks são amplamente utilizados para lidar com operações assíncronas, como leitura de arquivos, requisições de rede, timers e manipulação de eventos. Nessas situações, a execução de callback é adiada até que uma determinada condição seja satisfeita, como a conclusão de uma tarefa externa ou a ocorrência de um evento específico. Esse modelo evita o bloqueio da execução principal e mantém a aplicação responsiva.
+
+É importante notar que callbacks não são inerentemente assíncronas. Uma função passada como callback pode ser executada de forma síncrona ou assíncrona, dependendo de como a função que a recebe foi implementada. O conceito de callback diz respeito à forma de passagem e invocação da função, não ao momento exato em que ela será chamada.
+
+Entender funções da callback é essencial para compreender o modelo de execução do javascript e serve como base para abstrações mais modernas, como promises e async/await. Mesmo que essas abstrações reduzam a complexidade do código, elas ainda são construídas sobre o mesmo princípio fundamental: a execução de funções em resposta a eventos ou à conclusão de operações.
