@@ -1,0 +1,9 @@
+A criação de uma promise em javacript representa a formalização de um valor qeu estará disponível no futuro, seja como resultado de uma operação bem-sucedida ou como falha. Diferentemente dos callbacks, a promise encapsula a lógica assíncrona em um objeto, separando claramente a definição da operação do consumo de seu resultado.
+
+Uma promise é criada a partir do construtor Promise, que recebe uma função chamada executor. Essa função é executada imediatamente pelo runtime e recebe dois parâmetros: uma função para resolver a promise e outra para rejeitá-la. Resolver significa indicar que a operação foi concluída com sucesso e fornecer o valor resultante. Rejeitar significa sinalizar que algo deu errado, fornecendo o motivo do erro. 
+
+Ao criar uma promise, o desenvolvedor descreve apenas como e quando ela será concluída, não o que deve acontecer depois. Esse desacoplamento é um dos principais benefícios desse modelo. Quem consome a promise não precisa conhecer os detalhes internos da operação, apenas reagir ao seu resultado quando ele estiver disponível.
+
+É importante entender que a criação de uma promise não bloqueia a execução do código. A função executor é executada de forma síncrona, mas a resolução ou rejeição da promise geralmente ocorre de forma assíncrona, em resposta a algum evento ou operação externa. Isso permite que o javacript continue executando outras instruções enquanto a promise aguarda sua conclusão.
+
+Compreender a criação de promises é o primeiro passo para entender um modelo mais estruturado de programação assíncrona. Elas fornecem uma base sólida para controle de fluxo, tratamento de erros e composição de operações assíncronas, servindo como alicerce para abstrações ainda mais expressivas, como async e await.

@@ -1,0 +1,9 @@
+Os métodos then e catch são os principais mecanismos para consumir o resultado de uma promise em javascript. Eles permitem reagir à resolução ou à rejeição de uma operação assíncrona de forma declarativa, sem a necessidade de lidar diretamente com callbacks aninhadas. 
+
+O método then é utilizado para registrar uma função que será executada quando a promise for resolvida com sucesso. Essa função recebe como argumento o valor final da promise e é chamada somente após a transição para o estado resolvido. Caso a promise ainda esteja pendente no momento do registro, o javascript garante que a função será executada assim que a resolução ocorrer. 
+
+O método catch é utilizado para lidar com falhas. Ele registra uma função que será executada quando a promise for rejeitada, recebendo como argumento o motivo do erro. Na prática, catch é um atalho para um then que trata apenas o caso de rejeição, tornando o código mais legível e explícito quanto à intenção de tratamento de erros. 
+
+Uma característica importante é que then e catch não alteram a promise original. Cada chamada retorna uma nova promise, permitindo que o fluxo continue de forma encadeada. Isso significa que o valor retornado dentro de um then se torna o valor da próxima promise da cadeia, e erros lançados podem ser capturados por um catch subsequente. 
+
+Esse modelo permite separar claramente o caminho de sucesso do caminho de erro, criando um fluxo assíncrono mais previsível e organizado. Ao utilizar then e catch, o desenvolvedor expressa de forma clara o que deve acontecer quando uma operação termina corretamente ou falha, reduzindo complexidade e melhorando a legibilidade do código.

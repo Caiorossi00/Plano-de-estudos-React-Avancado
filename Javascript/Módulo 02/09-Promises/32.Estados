@@ -1,0 +1,9 @@
+Uma promise em javascript possui um ciclo de vida bem definido, representado por seus estados. esses estados determinam em que ponto a operação assíncrona se encontra e como o valor associado a ela pode ser consumido. Diferentemente de callbacks, que não possuem estado explícito, a promise torna esse aspecto parte central do seu modelo.
+
+Inicialmente, toda promise é criada no estado pendente. Nesse estaǵio, a operação ainda não foi concluída, e nenhum valor final está disponível. A promise permanece pendente até que uma decisão seja tomada, seja ela de sucesso ou de falha. Enquanto está nesse estado, o código que depende do resultado apenas registra suas intenções de reação, sem ser executado. 
+
+Quando a operação é concluída com sucesso, a promise transita para o estado resolvida. Nesse momento, ela passa a conter um valor definitivo, que representa o resultado da operação. Esse valor fica associado à promise e pode ser acessado por qualquer parte do código que esteja observando esse estado, mesmo que a resolução tenha ocorrido antes do registro do observador.
+
+Caso a operação falhe, a promise entra no estado rejeitada. Assim como no estado resolvido, a promise passa a conter um valor final, que nesse caso representa o motivo da falha. Esse valor é usado para tratamento de erros e propagação de falhas ao longo de cadeias assíncronas. 
+
+Uma característica fundamental das promises é que esses estados são imutáveis. Uma vez que a promise deixa o estado pendente e se torna resovida ou rejeitada, ela nunca mais muda. Essa garantia elimina ambiguidades, evita múltiplas resoluções e torna o fluxo assíncrono previsível, permitindo que o javascript gerencia corretamente a execução e o encadeamento de operações futuras.

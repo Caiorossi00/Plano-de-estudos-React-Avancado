@@ -239,9 +239,9 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 09. Promises
 
-- Criação de Promise
-- Estados
-- `then`, `catch`
+- [x] Criação de Promise - (26/01/2026)
+- [x] Estados - (26/01/2026)
+- [x] `then`, `catch` - (26/01/2026)
 - Encadeamento
 
 ---
