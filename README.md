@@ -242,7 +242,7 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 - [x] Criação de Promise - (26/01/2026)
 - [x] Estados - (26/01/2026)
 - [x] `then`, `catch` - (26/01/2026)
-- Encadeamento
+- Encadeamento - (26/01/2026)
 
 ---
 

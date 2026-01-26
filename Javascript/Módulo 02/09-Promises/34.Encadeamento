@@ -1,0 +1,11 @@
+Encadeamento de promises é o padrão que permite executar várias operações assíncronas em sequência, onde a saída de uma etapa alimenta a próxima, sem recorrer a callbacks aninhadas.
+
+O ponto central do encadeamento é que todo then returna uma nova promise. O valor retornado dentro do then define o resultado da próxima promise da cadeia. Se esse valor for simples (número, string, objeto) ele será automaticamente encapsulado em uma promise resolvida. Se for outra promise, o javascript "aguarda" sua resolução antes de prosseguir.
+
+Esse comportamento permite criar fluxos lineares, nos quais cada etapa depende da anterior. A execução ocorre de forma ordenada, respeitando a conclusão de cada operação antes de iniciar a seguinte, mesmo que todas sejam assíncronas.
+
+O tratamento de erros também é encadeável. Se uma promise for rejeitada ou se um erro for lançado dentro de qualquer then, a cadeia é interrompida e o controle passa diretamente para o próximo catch disponível. Isso possibilita centralizar o tratamento de falhas em um único ponto, em vez de repetir lógica de erro em cada etapa.
+
+Outra característica relevante é que, após um catch, o encadeamento pode continuar. Se o catch retornar um valor válido, a cadeia volta ao estado de sucesso, permitindo recuperação parcial do fluxo. 
+
+Em termos conceituais, o encadeamento transforma operações assíncronas em uma sequência previsível e legível, aproximando o modelo assíncrono de uma execução passo a passo. Esse padrão é a base para abstrações mais modernas, como async e await, que apenas fornecem uma sintaxe mais direta sobre o mesmo mecanismo subjacente das promises.
