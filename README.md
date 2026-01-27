@@ -248,8 +248,8 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 10. Async / Await
 
-- Funções assíncronas
-- Fluxo sequencial vs paralelo
+- [x] Funções assíncronas - (27/01/2027)
+- [x] Fluxo sequencial vs paralelo - (27/01/2026)
 
 ---
 
