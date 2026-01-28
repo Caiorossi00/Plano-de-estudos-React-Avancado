@@ -1,0 +1,11 @@
+Em funções assíncronas, erros seguem um modelo específico baseado em promises. Toda função declarada com async sempre retorna uma promise, independentemente de retornar um valor simples ou lançar um erro. Isso é o ponto central para entender como erros se comportam nesse contexto. 
+
+Quando uma função assíncrona executa com sucesso e retorna um valor, esse valor é automaticamente embrulhado em uma promise resolvida. Quando ocorre um erro, seja por um throw explícito ou pela rejeição de uma promise aguardada com await, a função passa a retornar uma promise rejeitada. Ou seja, em funções assíncronas, erros não "quebram" o fluxo imediatamente como no código síncrono tradicional, eles se manifestam como rejeições.
+
+Um throw dentro de uma função async tem o mesmo efeito prático que um promise.reject. Ambos sinalizam falha e interrompem o fluxo normal da função, transferindo o controle para quem consome essa promise. Da mesma forma, ao usar await, qualquer promise rejeitada se comporta como se um erro tivesse sido lançado naquele ponto, podendo ser capturada por um try/catch.
+
+Se uma função assíncrona lança um erro e quem a chama não trata essa rejeição, o erro se propaga como uma unhandled promise rejection. Em ambientes modernos, isso é considerado um problema grave: no navegador gera mensagens de erro globais, e no node.js pode até encerrar o processo, dependendo da configuração. Por isso, toda chamada de função assíncrona deve ser tratada com await + try/catch ou com .catch().
+
+Outro ponto importante é que erros em funções assíncronas preservam a semântica de propagação. Uma função pode capturar um erro, realizar alguma ação (log, fallback, limpeza de recursos) e relançá-lo para níveis superiores. Isso permite criar camadas de responsabilidades bem definidas, onde cada nível decide se deve tratar ou apenas encaminhar o erro.
+
+Em resumo, erros em funções assíncronas não são exceções isoladas, mas parte do fluxo de promises. Eles se propagam como rejeições, podem ser intereceptados com try/catch ou .catch(), e exigem tratamento explícito para evitar falhas silenciosas. Entender esse modelo é essencial para escrever código assíncrono confiável, previsível e fácil de depurar. 
