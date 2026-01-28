@@ -255,7 +255,7 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 11. Tratamento de erros assíncronos
 
-- [x]`try / catch` - (28/01/2026)
+- [x] try / catch - (28/01/2026)
 - [x] Erros em funções assíncronas - (28/01/2026)
 
 ---
