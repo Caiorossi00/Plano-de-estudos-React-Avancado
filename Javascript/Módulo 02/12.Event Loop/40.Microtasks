@@ -1,0 +1,14 @@
+No contexto do event loop, as microtasks são uma fila de tarefas com prioridade maior em relação às macrotasks. Elas existem para lidar principalmente com resultados de promises e garantir que certos tipos de código assíncrono sejam executados o mais rápido possível após o término da execução atual.
+
+Microtasks não entram diretamente no call stack no momento em que são criadas.
+Quando uma promise é resolvida ou rejeitada, o código passado para then, catch ou finally é colocado na microtask queue. Essa fila fica aguardando até que o call stack esteja vazio.
+
+A regra central do event loop é que, sempre que o call stack esvazia, o runtime esgota completamente a fila de microtasks antes de processar qualquer macrotask. Isso significa que todas as microtasks pendentes são executadas, uma por uma, até que a fila esteja vazia. Somente depois disso o event loop avança para a próxima macrotask.
+
+Essa prioridade elevada existe para garantir previsibilidade no encadeamento de promises. Quando você encadeia vários then, cada um gera uma nova microtask. O javascript garante que todo esse encadeamento seja resolvido antes que eventos como timers, cliques ou I/O sejam processados. 
+
+Além de promises, outras APIs internas também usam microtasks, como queueMicrotask. Independentemente da origem, todas seguem a mesma regra: esperam o call stack ficar vazio e são executados antes de qualquer macrotask.
+
+Um efeito prático importante é que microtasks podem adiar indefinidamente macrotasks se forem criadas em loop. Se cada microtask agenda outra microtask, o event loop nunca chega a processar timers ou eventos, o que pode causar bloqueios lógicos semelhantes a código síncrono pesado.
+
+Em resumo, microtasks são uma fila de alta prioridade no event loop, usada principalmente para promises. Elas são executadas imediatamente após o esvaziamento do call stack e sempre antes de macrotasks, garantindo um modelo consistente para o fluxo assíncrono moderno do javascript. 

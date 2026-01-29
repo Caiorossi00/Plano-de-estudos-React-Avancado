@@ -1,0 +1,13 @@
+No contexto do event loop, o call stack é o ponto de partida de toda a execução do javascript. Ele representa a pilha de execução onde o runtime controla quais funções estão sendo executadas naquele momento.
+
+O javascript é single-threaded, o que significa que ele executa uma coisa por vez. O call stack é a estrutura que garante essa ordem. Sempre que uma função é chamada, ela é colocada no topo da pilha. Quando essa função termina sua execução, ela é removida do topo. O código sempre executa a função que está no topo do stack.
+
+Esse comportamento segue a lógica LIFO (Last in, first out): a última função a entrar é a primeira a sair. Funções aninhadas geram empilhamentos sucessivos, e a execução só retorna para a função anterior quando a atual termina completamente.
+
+Dentro do modelo do event loop, o call stack executa apenas o código síncrono. Enquanto existir qualquer coisa no call stack, o javascript não processa callbacks assíncronos, timers, promises ou eventos. O event loop só começa a atuar quando o call stack fica vazio.
+
+Quando uma operação assíncrona é iniciada (como setTimeout, uma requisição ou uma promise), a função que a iniciou entra no call stack, registra a operação no ambiente externo (web APIs ou APIs do node.js) e sai do stack. O resultado dessa operação não entra imediatamente no call stack. Ele fica aguardando em filas apropriadas até que o call stack esteja livre.
+
+Por isso, um call stack ocupado ou bloqueado (por exemplo, com loops pesados ou cálculos longos) impede que qualquer código assíncrono seja executado, mesmo que ele já esteja pronto. Esse é o motivo pelo qual se diz que o javascript pode "travar" a interface: não é porque o código é lento, mas porque o call stack nunca fica vazio.
+
+Em resumo, no event loop, o call stack é o executor central: ele define o que está rodando agora, garante a execução síncrona e controla quando o event loop pode avançar para processar tarefas assíncronas. Sem entender o call stack, não é possível compreender o funcionamento real do assíncronismo em javascript

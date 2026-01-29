@@ -1,0 +1,13 @@
+No modelo do event loop, as macrotasks representam tarefas assíncronas de menor prioridade quando comparadas às microtasks. Elas são usadas para lidar com eventos externos, timers e operações que não precisam ser resolvidas imediatamente após o término da execução atual.
+
+Macrotasks são colocadas na macrotask queue por APIs do ambiente (browser ou node.js). Exemplos comuns incluem callbacks de setTimeout, setInterval, eventos de DOM, mensagens de postMessage e algumas operações de I/O. Essas tarefas não entram diretamente no call stack, elas aguardam na fila até que o event loop permita sua execução.
+
+A regra de execução é clara: o event loop só pega uma macrotask quando o call stack está vazio e não há microtasks pendentes. Ou seja, mesmo que uma macrotask esteja pronta há mais tempo, ela será adiada se existirem microtasks aguardando execução. 
+
+Quando uma macrotask é finalmente escolhida, ela é colocada no call stack e executada do início ao fim. Durante essa execução, novas microtasks e macrotasks podem ser agendadas. Ao terminar, o call stack esvazia novamente, o event loop executa todas as microtasks acumuladas e só depois segue para a próxima macrotask.
+
+Essa separação existe para manter a aplicação responsiva. Macrotasks normalmente representam interações com o mundo externo, como cliques do usuário ou timers, e são processados de forma intercalada com o código principal, respeitando o fluxo interno das promises.
+
+Na prática, isso explica por que um setTimeout(..., 0) não executa imediatamente. mesmo com atraso zero, o callback entra na fila de macrotasks e só será executado após o término do código síncrono atual e do esgotamento da fila de microtasks.
+
+Em resumo, macrotasks são tarefas assíncronas de menor prioridade no event loop. Elas aguardam o call stack ficar vazio e a fila de microtasks ser completamente processada antes de serem executadas, funcionando como o mecanismo que integra eventos externos ao fluxo de execução do javascript. 

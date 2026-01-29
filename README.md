@@ -262,10 +262,10 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 12. Event Loop
 
-- Call Stack
-- Microtasks
-- Macrotasks
-- Ordem de execução
+- [x] Call Stack - (29/01/2026)
+- [x] Microtasks - (29/01/2026)
+- [x] Macrotasks - (29/01/2026)
+- [x] Ordem de execução - (29/01/2026)
 
 ---
 

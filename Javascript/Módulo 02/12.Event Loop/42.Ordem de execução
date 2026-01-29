@@ -1,0 +1,13 @@
+No event loop, a ordem de execução define como o javascript coordena código síncrono, tarefas assíncronas e promises dentro de um ambiente single-threaded. Essa ordem é o que garante previsibilidade mesmo em aplicações altamente assíncronas.
+
+A execução sempre começa pelo código síncrono. Tudo que está fora de callbacks, promises ou timers é executado imediatamente, linha por linha, sendo empilhado e removido do call stack conforme as funções são chamadas e finalizadas. Enquanto o call stack não estiver vazio, nenhuma tarefa assíncrona é executada. 
+
+Quando o call stack esvazia, o event loop verifica primeiro a fila de microtasks. Microtasks têm prioridade máxima e são executadas completamente antes de qualquer outra coisa. Isso inclui callbacks de then, catch e finally de promises, além de queueMicrotask. Se durante a execução de uma microtask novas microtasks forem criadas, elas entram na mesma fila e também serão executadas antes de seguir adiante. 
+
+Somente depois que a fila de microtasks estiver totalmente vazia o event loop passa para a fila de macrotasks. Ele seleciona uma única macrotask, como um callback de setTimeout, um evento ou uma operação de I/O, e a coloca no call stack para execução. Essa macrotask é executada por completo.
+
+Ao final da execução dessa macrotask, o ciclo se repete. O call stack esvazia, o event loop processa todas as microtasks pendentes e, somente depois disso, segue para a próxima macrotask disponível.
+
+Essa ordem pode ser resumida como: executar código síncrono -> executar todas as microtasks -> executar uma macrotask -> repetir o ciclo. Esse comportamento explica por que promises resolvidas dentro de um setTimeout ainda executam seus then antes do próximo timer, e por que microtasks podem "adiar" indefinidamente macrotasks se continuarem sendo criadas. 
+
+Entender essa ordem de execução é essencial para evitar bugs difíceis de rastrear, como comportamentos inesperados em logs, delays não intuitivos ou aplicações que parecem "travadas". Ela é a base do funcionamento do javascript assíncrono tanto no navegador quanto no node.js. 
