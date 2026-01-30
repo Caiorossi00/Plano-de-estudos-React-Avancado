@@ -1,0 +1,11 @@
+Em javascript, persistência de estado no contexto de closures decreve a capacidade de uma função manter acesso a dados de um escopo externo mesmo após esse escopo já ter sido executado. Esse comportamento é uma consequência direta do escopo léxico e do modo como o runtime gerencia memória e referências. 
+
+Quando uma função interne é criada dentro de outra função, ela captura o ambiente léxico onde foi definida. Isso inclui variáveis locais da função externa. Normalmente, ao final da execução de uma função, suas variáveis locais deixariam de existir. No entanto, se uma função interna ainda referencia essas variáveis, o javascript preserva esse ambiente em memória. O estado não é copiado nem congelado, ele permanece vivo enquanto houver referências a ele. 
+
+Essa persistência permite que dados sejam mantidos entre múltiplas execuções da mesma função interna. Cada chamada não recria o estado do zero, mas reutiliza o mesmo conjunto de variáveis capturadas. O resultado é um estado privado, acessível apenas pelas funções que fazem parte daquela closure, e invisivel para o restante do programa.
+
+Do ponto de vista prático, isso transforma funções em estruturas capazes de encapsular dados e comportamento ao mesmo tempo. Variáveis que participam de uma closure funcionam como um armazenamento interno, sem necessidade de objetos globais ou estruturas externas. Esse padrão é amplamente usado para controle de contadores, cache, configuração interna, memoização e abstrações funcionais em geral.
+
+É importante entender que a persistência de estado não acontece por mágica, mas por referência. O runtime mantém o ambiente léxico porque ele ainda é necessário. Quando nenhuma função mais referencia aquele escopo, o garbage collector pode liberá-lo normalmente. Assim, closures não "vazam memória" por si só, mas exigem atenção para não manter referências desnecessárias viva por tempo excessivo. 
+
+Em resumo, a persistência de estado é o que faz uma closure ser mais do que apenas uma função. Ela permite que dados sobrevivam ao ciclo normal de execução, fiquem protegidos do acesso externo e mantenham coerência entre chamadas, tornando closures uma ferramenta poderosa para modelar comportamento e estado de forma controlada em javascript. 

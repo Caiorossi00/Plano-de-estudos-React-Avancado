@@ -1,0 +1,13 @@
+No javascript, escopo léxico define onde variáveis são acessíveis com base em onde o código foi escrito, e não em como ou quando ele é executado. A palavra "léxico" indica exatamente isso: o escopo é determinado no momento da escrita do código, durante a análise estática, e permanece fixa ao longo da execução.
+
+Isso significa que uma função carrega consigo o ambiente em que foi declarada. Ela pode acessar variáveis definidas no seu próprio corpo, nos escopos externos que a envolvem e no escopo global, formando o que chamamos de cadeia de escopos.
+Essa relação é estabelecida no momento da declaração da função, não no momento da chamada.
+
+Quando o javascript executa uma função e encontra uma variável, ele primeiro procura no escopo local da função. Se não encontrar, sobe para o escopo imediatamente externo, depois para o próximo, e assim por diante, até chegar ao escopo global. Essa busca segue exatamente a estrutura do código-fonte, nunca o caminho da chamada da função.
+
+Um ponto fundamental é que o local onde a função é chamada não altera seu escopo. Mesmo que uma função seja executada em um contexto completamente diferente, ela continua enxergando apenas as variáveis que estavam disponíveis onde ela foi definida. Isso elimina ambiguidades e torna o comportamento do código previsível.
+
+O escopo léxico é a base para o funcionamento de closures. É ele que permite que funções internas continuem acessando variáveis de escopos externos mesmo depois que esses escopos já deveriam, em teoria, ter sido finalizados. Sem escopo léxico, closures simplesmente não existiriam. 
+
+Em resumo, escopo léxico é o modelo que determina que funções "lembram" de onde vieram, e não de onde são chamadas. Essa característica é uma das decisões de design mais importantes do javascript e sustenta boa parte de seu modelo de execução, encapsulamento e composição de funções. 
+

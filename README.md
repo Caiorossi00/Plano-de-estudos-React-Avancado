@@ -273,8 +273,8 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ### 13. Closures
 
-- Escopo léxico
-- Persistência de estado
+- [x] Escopo léxico - (30/01/2026)
+- [x]Persistência de estado - (30/01/2026)
 
 ---
 
