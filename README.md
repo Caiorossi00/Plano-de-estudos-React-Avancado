@@ -366,6 +366,218 @@ Compreender como o JavaScript representa valores, realiza coerções e compara d
 
 ---
 
+# Redux Tradicional e Ecossistema React Legado
+
+<img src="./Redux/redux.png">
+
+## Módulo 1 – O Paradigma de Classes, Contexto (`this`) e HOCs
+
+**Objetivo:**  
+Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida funcional para os gatilhos das classes e dominando o padrão de composição via Higher-Order Components.
+
+### 01. Estrutura de Classes React
+
+- [ ] A anatomia de uma Classe React: `constructor`, inicialização de `state = {}` e o papel do método `render()` 
+- [ ] Diferença estrutural entre componentes funcionais modernos e componentes baseados em classes 
+- [ ] Fluxo de renderização e atualização em componentes de classe
+
+---
+
+### 02. Ciclos de Vida
+
+- [ ] `componentDidMount` como equivalente ao hook de montagem e inicialização
+- [ ] `componentDidUpdate(prevProps, prevState)` para sincronização baseada em dependências
+- [ ] `componentWillUnmount` e limpeza de efeitos colaterais 
+- [ ] Relação conceitual entre lifecycle methods e `useEffect` 
+
+---
+
+### 03. Contexto (`this`)
+
+- [ ] A semântica do `this`: propriedades de instância, métodos e perda de escopo 
+- [ ] Diferença entre métodos tradicionais e arrow functions em classes
+- [ ] Arrow functions como propriedades de classe para preservação do escopo léxico do `this` 
+- [ ] Uso de `bind` manual em constructors
+
+---
+
+### 04. Higher-Order Components (HOCs)
+
+- [ ] HOCs como padrão de composição e injeção de comportamento
+- [ ] Estrutura: funções que recebem componentes e retornam novos componentes
+- [ ] O encadeamento de HOCs (`connect`, `reduxForm`, `withRouter`) 
+- [ ] Rastreabilidade de props: identificar qual HOC injeta cada propriedade
+- [ ] Ordem de composição e impacto na árvore de renderização 
+
+---
+
+## Módulo 2 – Redux Tradicional e o Padrão Ducks
+
+**Objetivo:**  
+Compreender os mecanismos internos do Redux baseado em Actions síncronas, Reducers puros e o padrão de encapsulamento modular.
+
+### 05. Fundamentos do Redux Tradicional
+
+- [ ] Fluxo unidirecional de dados no Redux
+- [ ] O papel da Store como fonte global de verdade
+- [ ] Diferença entre intenção (`action`) e mutação (`reducer`) 
+
+---
+
+### 06. Padrão Ducks
+
+- [ ] Filosofia do padrão Ducks: unificação de `types`, `actions` e `reducers` em um único módulo 
+- [ ] Organização estrutural de arquivos em aplicações enterprise
+- [ ] Separação de responsabilidades entre Duck, Screen e componentes visuais 
+
+---
+
+### 07. Reducers e Imutabilidade
+
+- [ ] Anatomia de um reducer clássico baseado em `switch-case` 
+- [ ] Tratamento de `action.payload` 
+- [ ] Atualizações imutáveis com `spread operator`
+- [ ] Normalização de estado e atualização parcial de objetos complexos
+
+---
+
+### 08. Redux Thunk
+
+- [ ] Middleware e interceptação de actions assíncronas
+- [ ] Estrutura `(dispatch, getState) => {}` 
+- [ ] Chamadas assíncronas com `async/await` dentro dos Ducks 
+- [ ] Encadeamento de múltiplos dispatches 
+- [ ] Tratamento de loading, sucesso e erro assíncrono 
+
+---
+
+### 09. Integração com React
+
+- [ ] O papel do `dispatch` como propagador de intenção de mudança
+- [ ] `connect`, `mapStateToProps` e `mapDispatchToProps` 
+- [ ] Diferença entre leitura (`state -> props`) e escrita (`dispatch -> actions`) 
+- [ ] Uso de selectors para desacoplamento da estrutura da Store 
+
+---
+
+## Módulo 3 – Ecossistema de Formulários Conectados (`redux-form`)
+
+**Objetivo:**  
+Entender a arquitetura onde o estado dos inputs deixa de ser local e passa a ser gerenciado como uma árvore global reativa altamente controlada.
+
+### 10. Estrutura Interna do Redux-Form
+
+- [ ] O ciclo de vida do formulário dentro da Store (`state.form`) 
+- [ ] Estrutura de `values`, `initial`, `touched`, `dirty` e `pristine` 
+- [ ] Diferença entre estado local e estado globalizado de formulários 
+
+---
+
+### 11. Fluxo de Atualizações
+
+- [ ] Ações automáticas internas (`@@redux-form/CHANGE`, `BLUR`, `FOCUS`)
+- [ ] Reatividade baseada em dispatches automáticos 
+- [ ] Impacto de mudanças de campos na Store global
+
+---
+
+### 12. Inicialização e Manipulação de Campos
+
+- [ ] Uso de `this.props.initialize(dados)` para preenchimento global do formulário
+- [ ] Reset de estado `pristine` após inicialização
+- [ ] Uso da action creator `initialize(formName, dados)` diretamente no Duck 
+- [ ] Atualizações granulares com `change(campo, valor)`
+- [ ] Manipulação condicional de campos dependentes 
+
+---
+
+### 13. Validação e Regras
+
+- [ ] Estrutura de validação desacoplada (`validate.js`) 
+- [ ] Mapeamento de valores para objetos de erro 
+- [ ] Validação síncrona baseada em regras declarativas
+- [ ] Integração entre validação e estado visual do formulário 
+
+---
+
+## Módulo 4 – Fluxos Arquiteturais Enterprise
+
+**Objetivo:**  
+Desenvolver fluidez operacional em fluxos reais de aplicações corporativas baseadas em React legado.
+
+### 14. Fluxo de CRUD Enterprise
+
+- [ ] Fluxo completo: montagem → fetch → reducer → render → edição → submit
+- [ ] Carregamento inicial via `componentDidMount` 
+- [ ] Preenchimento do formulário após resposta assíncrona 
+- [ ] Fluxos de criação vs edição de entidade
+
+---
+
+### 15. Fluxos Dependentes e Reativos
+
+- [ ] Campos dependentes (`Estado -> Cidade`, `Categoria -> Produto`) 
+- [ ] Atualizações reativas com `change()`
+- [ ] Limpeza automática de campos derivados
+- [ ] Carregamento condicional de listas secundárias
+
+---
+
+### 16. Paginação, Filtros e Estado Compartilhado
+
+- [ ] Persistência de filtros no Redux 
+- [ ] Paginação controlada via Store global
+- [ ] Sincronização entre filtros, query params e listagens
+- [ ] Reexecução automática de buscas após mudanças de filtro
+
+---
+
+## Módulo 5 – Padrões de Arquitetura e Tomada de Decisão
+
+**Objetivo:**  
+Desenvolver capacidade de decomposição de requisitos técnicos em pseudocódigo, separando estritamente interface, estado global e regras de negócio.
+
+### 17. Container / Presentational Pattern
+
+- [ ] Separação entre `Screen.js` (container) e `Form.js` (visual) 
+- [ ] Responsabilidades da Screen como camada de orquestração
+- [ ] Componentes visuais desacoplados de regras de negócio
+
+---
+
+### 18. Orquestração e Concorrência
+
+- [ ] Inicialização paralela de dados com `Promise.all` 
+- [ ] Coordenação de múltiplos dispatches assíncronos
+- [ ] Controle de dependência entre chamadas de API 
+
+---
+
+### 19. Estados de Loading e Feedback Visual
+
+- [ ] Separação entre loading global e loading local de formulário
+- [ ] Controle visual derivado diretamente da Store
+- [ ] Estados intermediários de carregamento e bloqueio de UI 
+
+---
+
+### 20. Tratamento Global de Exceções
+
+- [ ] Fluxos de erro com `try/catch` dentro de thunks 
+- [ ] Integração com Ducks globais de feedback (`SnackbarDucks`) 
+- [ ] Centralização de mensagens de erro e sucesso 
+
+---
+
+### 21. Engenharia de Código Corporativo
+
+- [ ] Reutilização de componentes globais padronizados
+- [ ] Consumo de APIs desacopladas da interface 
+- [ ] Legibilidade e previsibilidade em aplicações enterprise
+- [ ] Estratégias de evolução incremental em bases legadas
+
+ ---
+
 ## Histórico de estrelas do repositório
 
 <a href="https://www.star-history.com/?repos=Caiorossi00%2FReact-em-Profundidade&type=timeline&legend=top-left">
