@@ -1,0 +1,2 @@
+O que é instanciar?
+Instanciar é o processo de criar um objeto real em memória a partir de uma classe. Esse objeto passa a existir como uma instância independente, com seu próprio estado e identidade, seguindo a estrutura definida pela classe que o originou.
