@@ -378,7 +378,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 ### 01. Estrutura de Classes React
 
 - [x] A anatomia de uma Classe React: `constructor`, inicialização de `state = {}` e o papel do método `render()` - (17/05/2026)
-- [ ] Diferença estrutural entre componentes funcionais modernos e componentes baseados em classes
+- [x] Diferença estrutural entre componentes funcionais modernos e componentes baseados em classes - (17/05/2026)
 - [ ] Fluxo de renderização e atualização em componentes de classe
 
 ---
