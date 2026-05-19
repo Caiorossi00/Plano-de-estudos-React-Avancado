@@ -385,7 +385,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 
 ### 02. Ciclos de Vida
 
-- [ ] `componentDidMount` como equivalente ao hook de montagem e inicialização
+- [x] `componentDidMount` como equivalente ao hook de montagem e inicialização - (19/05/2026)
 - [ ] `componentDidUpdate(prevProps, prevState)` para sincronização baseada em dependências
 - [ ] `componentWillUnmount` e limpeza de efeitos colaterais
 - [ ] Relação conceitual entre lifecycle methods e `useEffect`
