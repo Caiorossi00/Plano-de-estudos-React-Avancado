@@ -387,7 +387,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 
 - [x] `componentDidMount` como equivalente ao hook de montagem e inicialização - (19/05/2026)
 - [x] `componentDidUpdate(prevProps, prevState)` para sincronização baseada em dependências - (23/07/2026)
-- [ ] `componentWillUnmount` e limpeza de efeitos colaterais
+- [x] `componentWillUnmount` e limpeza de efeitos colaterais - (24/07/2026)
 - [ ] Relação conceitual entre lifecycle methods e `useEffect`
 
 ---
@@ -578,13 +578,4 @@ Desenvolver capacidade de decomposição de requisitos técnicos em pseudocódig
 
  ---
 
-## Histórico de estrelas do repositório
 
-<a href="https://www.star-history.com/?repos=Caiorossi00%2FReact-em-Profundidade&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Caiorossi00/React-em-Profundidade&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Caiorossi00/React-em-Profundidade&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Caiorossi00/React-em-Profundidade&type=timeline&legend=top-left" />
- </picture>
-</a>
-<br>
