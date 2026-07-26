@@ -394,7 +394,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 
 ### 03. Contexto (`this`)
 
-- [ ] A semântica do `this`: propriedades de instância, métodos e perda de escopo
+- [x] A semântica do `this`: propriedades de instância, métodos e perda de escopo - (26/07/2026)
 - [ ] Diferença entre métodos tradicionais e arrow functions em classes
 - [ ] Arrow functions como propriedades de classe para preservação do escopo léxico do `this`
 - [ ] Uso de `bind` manual em constructors
