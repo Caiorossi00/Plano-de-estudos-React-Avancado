@@ -13,6 +13,7 @@ Vale destacar que este plano foi **100% estruturado de forma autoral**, consider
 <br>
 
 # React em Profundidade
+
 <a href="./React em Profundidade - Caiorossi.dev.pdf">
 <img src="./React/react.png">
 </a>
@@ -162,6 +163,7 @@ Vale destacar que este plano foi **100% estruturado de forma autoral**, consider
 ---
 
 # JavaScript - Guia de Bolso para Desenvolvedores
+
 <img src="./Javascript/js.png">
 
 ## Módulo 1 – Fundamentos da Linguagem
@@ -395,8 +397,8 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 ### 03. Contexto (`this`)
 
 - [x] A semântica do `this`: propriedades de instância, métodos e perda de escopo - (26/07/2026)
-- [ ] Diferença entre métodos tradicionais e arrow functions em classes
-- [ ] Arrow functions como propriedades de classe para preservação do escopo léxico do `this`
+- [x] Diferença entre métodos tradicionais e arrow functions em classes
+- [ ] Arrow functions como propriedades de classe para preservação do escopo léxico do `this`- (27/07/2026)
 - [ ] Uso de `bind` manual em constructors
 
 ---
@@ -576,6 +578,4 @@ Desenvolver capacidade de decomposição de requisitos técnicos em pseudocódig
 - [ ] Legibilidade e previsibilidade em aplicações enterprise
 - [ ] Estratégias de evolução incremental em bases legadas
 
- ---
-
-
+  ***
