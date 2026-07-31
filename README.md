@@ -399,13 +399,13 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 - [x] A semântica do `this`: propriedades de instância, métodos e perda de escopo - (26/07/2026)
 - [x] Diferença entre métodos tradicionais e arrow functions em classes - (27/07/2026)
 - [x] Arrow functions como propriedades de classe para preservação do escopo léxico do `this`- (28/07/2026)
-- [x] Uso de `bind` manual em constructors - (28/07/2026)
+- [x] Uso de `bind` manual em constructors - (29/07/2026)
 
 ---
 
 ### 04. Higher-Order Components (HOCs)
 
-- [ ] HOCs como padrão de composição e injeção de comportamento
+- [x] HOCs como padrão de composição e injeção de comportamento - (30/07/2026)
 - [ ] Estrutura: funções que recebem componentes e retornam novos componentes
 - [ ] O encadeamento de HOCs (`connect`, `reduxForm`, `withRouter`)
 - [ ] Rastreabilidade de props: identificar qual HOC injeta cada propriedade
