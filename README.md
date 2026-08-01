@@ -406,7 +406,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 ### 04. Higher-Order Components (HOCs)
 
 - [x] HOCs como padrão de composição e injeção de comportamento - (30/07/2026)
-- [ ] Estrutura: funções que recebem componentes e retornam novos componentes
+- [x] Estrutura: funções que recebem componentes e retornam novos componentes - (31/07/2026)
 - [ ] O encadeamento de HOCs (`connect`, `reduxForm`, `withRouter`)
 - [ ] Rastreabilidade de props: identificar qual HOC injeta cada propriedade
 - [ ] Ordem de composição e impacto na árvore de renderização
