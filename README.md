@@ -407,7 +407,7 @@ Compreender a mecânica estrutural do React clássico, mapeando o ciclo de vida 
 
 - [x] HOCs como padrão de composição e injeção de comportamento - (30/07/2026)
 - [x] Estrutura: funções que recebem componentes e retornam novos componentes - (31/07/2026)
-- [ ] O encadeamento de HOCs (`connect`, `reduxForm`, `withRouter`)
+- [x] O encadeamento de HOCs (`connect`, `reduxForm`, `withRouter`)  - (02/08/2026)
 - [ ] Rastreabilidade de props: identificar qual HOC injeta cada propriedade
 - [ ] Ordem de composição e impacto na árvore de renderização
 
