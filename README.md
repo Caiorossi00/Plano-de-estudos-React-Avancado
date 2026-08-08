@@ -422,7 +422,7 @@ Compreender os mecanismos internos do Redux baseado em Actions síncronas, Reduc
 
 - [x] Fluxo unidirecional de dados no Redux - (05/08/2026)
 - [x] O papel da Store como fonte global de verdade - (06/08/2026)
-- [ ] Diferença entre intenção (`action`) e mutação (`reducer`)
+- [x] Diferença entre intenção (`action`) e mutação (`reducer`) -  (07/08/2026)
 
 ---
 
