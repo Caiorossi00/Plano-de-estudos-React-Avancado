@@ -422,13 +422,13 @@ Compreender os mecanismos internos do Redux baseado em Actions síncronas, Reduc
 
 - [x] Fluxo unidirecional de dados no Redux - (05/08/2026)
 - [x] O papel da Store como fonte global de verdade - (06/08/2026)
-- [x] Diferença entre intenção (`action`) e mutação (`reducer`) -  (07/08/2026)
+- [x] Diferença entre intenção (`action`) e mutação (`reducer`) - (07/08/2026)
 
 ---
 
 ### 06. Padrão Ducks
 
-- [ ] Filosofia do padrão Ducks: unificação de `types`, `actions` e `reducers` em um único módulo
+- [x] Filosofia do padrão Ducks: unificação de `types`, `actions` e `reducers` em um único módulo - (10/08/2026)
 - [ ] Organização estrutural de arquivos em aplicações enterprise
 - [ ] Separação de responsabilidades entre Duck, Screen e componentes visuais
 
